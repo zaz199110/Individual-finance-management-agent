@@ -1,0 +1,64 @@
+/**
+ * 报告 Markdown Preview · 标题自动编号（RPT-HEADING-NUM-01）
+ * 最多 5 级：## → 1 · ### → 1.1 · #### → 1.1.1 · ##### → 1.1.1.1 · ###### → 1.1.1.1.1
+ * # 文档标题不参与编号。
+ * 编码仓 ReportMarkdownPreview 须引入同等规则。
+ */
+.report-md-body {
+  counter-reset: report-h2;
+}
+
+.report-md-body h1 {
+  counter-reset: report-h2;
+}
+
+.report-md-body h2 {
+  counter-reset: report-h3 report-h4 report-h5 report-h6;
+  counter-increment: report-h2;
+}
+
+.report-md-body h2::before {
+  content: counter(report-h2) " ";
+  font-variant-numeric: tabular-nums;
+}
+
+.report-md-body h3 {
+  counter-reset: report-h4 report-h5 report-h6;
+  counter-increment: report-h3;
+}
+
+.report-md-body h3::before {
+  content: counter(report-h2) "." counter(report-h3) " ";
+  font-variant-numeric: tabular-nums;
+}
+
+.report-md-body h4 {
+  counter-reset: report-h5 report-h6;
+  counter-increment: report-h4;
+}
+
+.report-md-body h4::before {
+  content: counter(report-h2) "." counter(report-h3) "." counter(report-h4) " ";
+  font-variant-numeric: tabular-nums;
+}
+
+.report-md-body h5 {
+  counter-reset: report-h6;
+  counter-increment: report-h5;
+}
+
+.report-md-body h5::before {
+  content: counter(report-h2) "." counter(report-h3) "." counter(report-h4) "."
+    counter(report-h5) " ";
+  font-variant-numeric: tabular-nums;
+}
+
+.report-md-body h6 {
+  counter-increment: report-h6;
+}
+
+.report-md-body h6::before {
+  content: counter(report-h2) "." counter(report-h3) "." counter(report-h4) "."
+    counter(report-h5) "." counter(report-h6) " ";
+  font-variant-numeric: tabular-nums;
+}

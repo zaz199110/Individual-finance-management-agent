@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-07-05T16:20:13.160634",
+  "pass": 8,
+  "fail": 0,
+  "checks": [
+    {
+      "test": "home -> /chat redirect",
+      "pass": true,
+      "url": "http://localhost:3000/chat?c=2f6cc239-b214-4387-9509-b1369c6b27a1"
+    },
+    {
+      "test": "chat input visible",
+      "pass": true
+    },
+    {
+      "test": "scene tabs",
+      "pass": true,
+      "found": 5
+    },
+    {
+      "test": "/reports loads",
+      "pass": true
+    },
+    {
+      "test": "/reports/view loads",
+      "pass": true
+    },
+    {
+      "test": "/settings/models loads",
+      "pass": true
+    },
+    {
+      "test": "/fund-knowledge loads",
+      "pass": true
+    },
+    {
+      "test": "no console errors",
+      "pass": true,
+      "count": 0
+    }
+  ]
+}

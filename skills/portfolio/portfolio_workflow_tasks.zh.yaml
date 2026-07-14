@@ -1,0 +1,89 @@
+# 持仓分析 Tab · workflow_tasks 任务图（对客阶段条）
+# 权威 PRD → requirement/prd/08-portfolio.md §8.11
+# 落盘 → workflow_tasks（shared §5.11.4 · 一级平铺 · node_depth=1）
+
+scene: portfolio
+decision_ids:
+  - PORT-STAGE-01
+
+# 单次 run 节点顺序（sort_order 递增）
+# status: pending | running | done | blocked | cancelled
+# blocked: 持仓确认卡 / 报告确认卡等待中
+# 原「二级」gather / tpl / compose / verify 均提升为一级（仍展示）
+
+tasks:
+  # ── A · 持仓录入/更新（无当前持仓或用户要调仓时）──
+  - task_key: port.hold.input
+    node_depth: 1
+    label: 录入或更新持仓
+    skill: portfolio_intake
+    note: 手输持仓信息；无持仓时从本段开始
+
+  - task_key: port.hold.parse
+    node_depth: 1
+    label: 整理您的持仓描述
+    note: 从文字解析持仓变更信息
+
+  - task_key: port.hold.propose
+    node_depth: 1
+    label: 整理持仓变更摘要
+    skill: portfolio_intake
+    command: holdings_propose
+
+  - task_key: port.hold.card
+    node_depth: 1
+    label: 生成持仓确认卡
+    skill: portfolio_intake
+
+  - task_key: port.hold.wait
+    node_depth: 1
+    label: 等待您确认持仓
+    status_default: blocked
+
+  - task_key: port.hold.confirm
+    node_depth: 1
+    label: 保存当前持仓
+    command: holdings_confirm
+
+  # ── B · 分析准备（须有 is_current 持仓）──
+  - task_key: port.prep.read
+    node_depth: 1
+    label: 读取当前持仓
+    command: holdings_read
+    note: 再次进入可 auto-done 若用户直接说「重新分析」
+
+  # ── C · 持仓分析报告（Gather + TPL + compose + verify · 一级平铺）──
+  - task_key: port.rpt.gather.l0
+    node_depth: 1
+    label: 同步各持仓基金行情与分红
+    note: holdings_nav_gather · syncFundL0Local force · PORT-L0-GATHER-01
+
+  - task_key: port.rpt.draft.tpl
+    node_depth: 1
+    label: 整理持仓表与图表
+    note: TPL 拼装 · echarts · HTML 占位
+
+  - task_key: port.rpt.draft.compose
+    node_depth: 1
+    label: 撰写分析导语与要点
+    skill: portfolio_report
+    note: LLM compose + TPL fallback · PORT-COMPOSE-01
+
+  - task_key: port.rpt.draft.verify
+    node_depth: 1
+    label: 核对报告结构与图表
+    command: portfolio_report_verify
+
+  - task_key: port.rpt.preview
+    node_depth: 1
+    label: 打开报告预览
+
+  - task_key: port.rpt.wait
+    node_depth: 1
+    label: 等待您确认发布
+    status_default: blocked
+
+  - task_key: port.rpt.publish
+    node_depth: 1
+    label: 保存至我的报告
+    command: report_publish

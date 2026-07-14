@@ -1,0 +1,175 @@
+# 需求梳理审视规则（客户信息 Hook · 约束 Hook · 报告 Verify）
+# 权威 PRD → requirement/prd/06-profile.md §6.1.3 · §6.2.2 · §6.2.8
+# 报告详文 → requirement/docs/samples/profile-investment-requirements-report-spec.md §7
+# 实现 → {APP_ROOT}/src/harness/verify/profile.ts（读本文 + 调 profile_check_* / profile_report_verify）
+
+version: 1
+schema: profile_verify_v1
+
+tolerances:
+  annual_income_vs_monthly_pct: 0.15
+  monthly_investable_delta_cny: 500
+  cross_group_amount: 0
+
+commands:
+  profile_hook1: profile_check_conflicts
+  profile_hook2: profile_check_completeness
+  goal_hook1: goal_constraint_check_conflicts
+  goal_hook2: goal_constraint_check_completeness
+  report_verify: profile_report_verify
+
+# ── 客户信息层（profile_basic · §6.1.3）──
+
+profile_basic_hook1:
+  - id: PB1
+    name: 月收入×12 与年收入偏差过大
+    check: abs(monthly_income_after_tax * 12 - annual_income_after_tax) / annual_income_after_tax <= annual_income_vs_monthly_pct
+    fix: 核对口径/奖金
+
+  - id: PB2
+    name: 月可投资与公式不一致
+    check: abs(monthly_investable - (monthly_income_after_tax - monthly_fixed_expense - monthly_loan_payment)) <= monthly_investable_delta_cny
+    fix: 按 §6.1.1 公式核对
+
+  - id: PB3
+    name: 支出加可投资超过月收入
+    check: monthly_fixed_expense + monthly_investable <= monthly_income_after_tax
+    fix: 调数字
+
+  - id: PB4
+    name: 金融资产为负或明显异常
+    check: financial_assets >= 0 and plausible_vs_income
+    fix: 核对是否含房/公积金
+
+  - id: PB5
+    name: 贷款余额与月供一方为 0 且无说明
+    check: loan_balance_total and monthly_loan_payment consistent
+    fix: 补月供或确认还清
+
+  - id: PB6
+    name: 家庭现状与年龄等表述矛盾
+    check: marital_status consistent with age narrative
+    fix: 更新现状
+
+profile_basic_hook2:
+  - id: PB7
+    name: 客户信息必填项缺失
+    check: all §6.12.2 keys present except optional city_tier
+    fix: 一次列全缺项
+
+# ── 投资需求（goal_constraint · §6.2.2）──
+
+goal_constraint_hook1:
+  - id: GC1
+    name: 保守偏好与高收益期望矛盾
+    check: risk_tolerance conservative vs expected_return < 8
+    fix: 调收益或回撤
+
+  - id: GC2
+    name: 低回撤与进取偏好矛盾
+    check: max_drawdown tight vs risk_tolerance aggressive
+    fix: 收紧偏好或放宽回撤
+
+  - id: GC3
+    name: 短期限与高期望收益矛盾
+    check: investment_horizon short vs expected_return high
+    fix: 调预期
+
+  - id: GC4
+    name: 流动性与投入方式矛盾
+    check: liquidity_need vs deploy_mode aligned
+    fix: 对齐 deploy_mode
+
+goal_constraint_cross_group:
+  - id: GC5
+    name: 各组月投入加总超过月可投资
+    check: sum(active monthly_amount) + pending monthly <= basic_info.monthly_investable + cross_group_amount
+    fix: 调各组或停用
+
+  - id: GC6
+    name: 各组已有金额加总超过金融资产
+    check: sum(active principal_amount) + pending principal <= basic_info.financial_assets + cross_group_amount
+    fix: 调本金或核对
+
+  - id: GC7
+    name: 同年多笔大额与月结余低
+    check: heuristic large_principal_vs_low_surplus
+    fix: 谈优先级
+
+goal_constraint_hook2:
+  - id: GC8
+    name: 场景字段或约束键缺失
+    check: goal_detail and investment_constraints keys per goal_type §6.12.5
+    fix: 补齐问卷
+
+  - id: GC9
+    name: 同类型第二活跃组
+    check: PH-PROFILE-GT-01 one active per goal_type
+    fix: 停用旧组或走路由 §6.2.1
+
+# ── 投资需求报告（profile_report_verify · PROFILE-EC-01）──
+
+profile_report:
+  max_echarts_blocks: 2
+  required_sections:
+    - 阅读指引
+    - 三句话
+    - 需求速览
+  body_h2_count: 7
+
+  checks:
+    - id: PR1
+      name: 开篇三块齐全
+      check: intro_blocks present
+
+    - id: PR2
+      name: 七个正文章节标题与 RPT-PROFILE-TPL 一致
+      check: body_h2_count and titles match template
+
+    - id: PR3
+      name: §2 缺客户信息 11 项
+      check: basic_info 11 fields in report
+
+    - id: PR4
+      name: §3 缺场景 goal_detail 项
+      check: all keys for goal_type
+
+    - id: PR5
+      name: §4 缺 investment_constraints 必填键
+      check: constraint keys present
+
+    - id: PR6
+      name: §5 缺本组金额
+      check: principal_amount and monthly_amount narrated
+
+    - id: PR7
+      name: §6 需求理解不足三条
+      check: understanding bullets >= 3 no table dump
+
+    - id: PR8
+      name: §7 缺合规短句
+      check: compliance footer §0.7
+
+    - id: PR9
+      name: 含基金代码或大类比例
+      check: no fund_code no allocation_pct
+      forbidden: true
+
+    - id: PR10
+      name: echarts 块非法或超上限
+      check: each block JSON valid count <= max_echarts_blocks
+      note: 0 图自动通过
+
+    - id: PR11
+      name: RPT-FORMAT-01 版式
+      check: chapter dividers chapter_answer disclaimer
+
+    - id: PR12
+      name: LLM 块对客质检（PROFILE-LLM-QA-01）
+      check: validateProfileLlmSections errors empty
+      scope: 三句话 + 对您需求的理解
+      dimensions:
+        - 格式清晰（①②③ / **1.2.3.** / blockquote）
+        - C 端友好（无内部词/fund_code/Tab/市场观点/大类比例）
+        - 语言简洁（单条长度、少堆砌；顾问腔 warn）
+      note: refine 落稿前 pickAcceptedLlmSection；仍失败则回退规则稿

@@ -1,0 +1,177 @@
+# 资产配置 Tab · workflow_tasks 任务图（对客阶段条）
+# 权威 PRD → requirement/prd/07-allocation-plan.md §7.11
+# 落盘 → workflow_tasks（shared §5.11.4 · 一级平铺）
+
+scene: plan
+decision_ids:
+  - PL-STAGE-PLAN-01
+
+# 单次「生成/校准资产配置」完整 run 的节点顺序（sort_order 递增）
+# status: pending | running | done | blocked | cancelled
+# blocked: 用户确认卡等待中（plan.s1.wait / plan.s2.wait / plan.rpt.wait）
+
+tasks:
+  # ── 准备 ──
+  - task_key: plan.prep.check
+    node_depth: 1
+    label: 校验投资需求是否完善
+    skill: plan_allocation
+    command: plan_read_profile_report
+
+  - task_key: plan.prep.pick_goal
+    node_depth: 1
+    label: 准备：选定目标场景
+    skill: plan_allocation
+    note: N=1 时可 auto-done；N≥2 须用户指名后进入下一节点
+
+  - task_key: plan.prep.read_profile
+    node_depth: 1
+    label: 准备：读取投资需求报告
+    skill: plan_allocation
+    command: plan_read_profile_report
+
+  # ── 第一步 · 大类 ──
+  - task_key: plan.s1.allocation
+    node_depth: 1
+    label: 确定资产配置大类
+    skill: plan_allocation
+    command: plan_propose_allocation
+
+  - task_key: plan.s1.allocation.align
+    node_depth: 1
+    label: 对齐您的投资需求
+    skill: plan_allocation
+
+  - task_key: plan.s1.allocation.interpret
+    node_depth: 1
+    label: 明确需求在当前市场语境下的含义
+    skill: plan_allocation
+    note: 第一步不联网；资产大类常识解读，非公开资讯检索
+
+  - task_key: plan.s1.allocation.ratio
+    node_depth: 1
+    label: 思考大类比例如何同时满足回撤与收益预期
+    skill: plan_allocation
+
+  - task_key: plan.s1.allocation.propose
+    node_depth: 1
+    label: 生成大类配置方案
+    skill: plan_allocation
+    note: 首次大类提议
+
+  - task_key: plan.s1.verify
+    node_depth: 1
+    label: 审视大类方案
+    skill: plan_allocation
+    command: plan_check_conflicts
+
+  - task_key: plan.s1.card
+    node_depth: 1
+    label: 生成大类确认卡
+    skill: plan_allocation
+
+  - task_key: plan.s1.wait
+    node_depth: 1
+    label: 等待您确认大类配置
+    status_default: blocked
+
+  - task_key: plan.s1.confirm
+    node_depth: 1
+    label: 保存大类配置
+    skill: plan_allocation
+    command: plan_confirm_allocation
+
+  # ── 第二步 · 明细 ──
+  - task_key: plan.s2.detail.intent
+    node_depth: 1
+    label: 确认选基场景与约束
+    skill: plan_allocation
+
+  - task_key: plan.s2.detail.web
+    node_depth: 1
+    label: 检索公开资讯
+
+  - task_key: plan.s2.detail.screen
+    node_depth: 1
+    label: 全市场初筛候选基金
+    note: L0+L3 · vault 无优先权
+
+  - task_key: plan.s2.detail.verify
+    node_depth: 1
+    label: 校验基金数据完整性
+
+  - task_key: plan.s2.detail.kb
+    node_depth: 1
+    label: 知识库核验入选基金
+    note: L1 explore · 仅核验
+
+  - task_key: plan.s2.detail.pick
+    node_depth: 1
+    label: 编排各大类基金明细与推荐理由
+    skill: plan_allocation
+
+  - task_key: plan.s2.detail.review
+    node_depth: 1
+    label: 审视定稿基金明细方案
+    skill: plan_allocation
+
+  - task_key: plan.s2.verify
+    node_depth: 1
+    label: 审视明细方案
+    command: plan_check_conflicts
+
+  - task_key: plan.s2.card
+    node_depth: 1
+    label: 生成明细确认卡
+    skill: plan_allocation
+
+  - task_key: plan.s2.wait
+    node_depth: 1
+    label: 等待您确认或继续讨论基金明细
+    status_default: blocked
+
+  - task_key: plan.s2.confirm
+    node_depth: 1
+    label: 保存明细方案
+    command: plan_confirm_detail
+
+  # ── 规划书 ──
+  - task_key: plan.rpt.draft.gather
+    node_depth: 1
+    label: 汇总资产配置与备案信息
+    skill: plan_report
+
+  - task_key: plan.rpt.draft.compose
+    node_depth: 1
+    label: 撰写投资规划书正文
+    skill: plan_report
+
+  - task_key: plan.rpt.draft.charts
+    node_depth: 1
+    label: 生成配置图表与数据展示
+    skill: plan_report
+
+  - task_key: plan.rpt.draft.buyplan
+    node_depth: 1
+    label: 拟定分批建仓方案
+    skill: plan_report
+
+  - task_key: plan.rpt.draft.verify
+    node_depth: 1
+    label: 校验规划书完整性与合规性
+    skill: plan_report
+
+  - task_key: plan.rpt.preview
+    node_depth: 1
+    label: 打开规划书预览
+    note: 模式 B
+
+  - task_key: plan.rpt.wait
+    node_depth: 1
+    label: 等待您确认发布
+    status_default: blocked
+
+  - task_key: plan.rpt.publish
+    node_depth: 1
+    label: 保存至我的报告
+    command: report_publish

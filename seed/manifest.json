@@ -1,0 +1,119 @@
+{
+  "version": "2.0.0",
+  "description": "DEMO-ABCDEF-01 演示种子：六类型自选 + 股债货各一 + 六 vault + 通用 L2 FAQ",
+  "funds": {
+    "019305": {
+      "fund_code": "019305",
+      "fund_name": "摩根标普500指数(QDII)人民币C",
+      "vault_dir": "019305-Morgan-SnP500-QDII-C",
+      "tier": "A",
+      "watchlist_order": 1,
+      "pdf_sources": [
+        {
+          "url": "https://www.cifm.com/fund/019305/lawfile/202606/P020260605329330703706.pdf",
+          "doc_type": "prospectus",
+          "filename": "product-summary-202606.pdf",
+          "label": "基金产品资料概要（人民币C类）"
+        }
+      ],
+      "expert_opinion_md": [
+        "expert_opinion/qdii-us-equity-outlook-2026.md",
+        "expert_opinion/index-tracking-note-2026.md",
+        "expert_opinion/qdii-fx-risk-note-2026.md"
+      ]
+    },
+    "017704": {
+      "fund_code": "017704",
+      "fund_name": "兴业中证同业存单AAA指数7天持有期",
+      "vault_dir": "017704-Industrial-Bank-CD-Index-7D",
+      "tier": "B",
+      "watchlist_order": 2,
+      "pdf_sources": [],
+      "bundled_md": [
+        {
+          "doc_type": "prospectus",
+          "filename": "product-summary.md",
+          "source": "bundled/017704/product-summary.md"
+        },
+        {
+          "doc_type": "quarterly_report",
+          "filename": "2025Q4-quarterly-report.md",
+          "source": "bundled/017704/2025Q4-quarterly-report.md"
+        },
+        {
+          "doc_type": "quarterly_report",
+          "filename": "2026Q1-quarterly-report.md",
+          "source": "bundled/017704/2026Q1-quarterly-report.md"
+        }
+      ]
+    },
+    "110020": {
+      "fund_code": "110020",
+      "fund_name": "易方达沪深300ETF联接A",
+      "vault_dir": "110020-Hs300-ETF-Link",
+      "tier": "C",
+      "watchlist_order": 3,
+      "pdf_sources": []
+    },
+    "206007": {
+      "fund_code": "206007",
+      "fund_name": "鹏华消费优选混合",
+      "vault_dir": "206007-Penghua-Consumer-Select",
+      "tier": "D",
+      "watchlist_order": 4,
+      "pdf_sources": []
+    },
+    "519772": {
+      "fund_code": "519772",
+      "fund_name": "交银定期支付双息平衡混合",
+      "vault_dir": "519772-Jiaoyin-Dual-Income",
+      "tier": "E",
+      "watchlist_order": 5,
+      "pdf_sources": []
+    },
+    "518880": {
+      "fund_code": "518880",
+      "fund_name": "华安黄金ETF联接A",
+      "vault_dir": "518880-Huaan-Gold-ETF-Link",
+      "tier": "F",
+      "watchlist_order": 6,
+      "pdf_sources": []
+    },
+    "110022": {
+      "fund_code": "110022",
+      "fund_name": "易方达消费行业股票",
+      "vault_dir": "110022-Yifangda-Consumer-Stock",
+      "tier": "D",
+      "watchlist_order": 7,
+      "pdf_sources": [],
+      "asset_class_demo": "pure_stock"
+    },
+    "217022": {
+      "fund_code": "217022",
+      "fund_name": "招商产业债券A",
+      "vault_dir": "217022-Zhaoshang-Industry-Bond",
+      "tier": "B",
+      "watchlist_order": 8,
+      "pdf_sources": [],
+      "asset_class_demo": "pure_bond"
+    },
+    "000198": {
+      "fund_code": "000198",
+      "fund_name": "天弘余额宝货币",
+      "vault_dir": "000198-Tianhong-Yuebao-Money",
+      "tier": "B",
+      "watchlist_order": 9,
+      "pdf_sources": [],
+      "asset_class_demo": "pure_money"
+    }
+  },
+  "doc_types": [
+    "prospectus",
+    "quarterly_report",
+    "semiannual_report",
+    "annual_report",
+    "expert_opinion",
+    "other"
+  ],
+  "semantic_seed_fund": "*"
+}

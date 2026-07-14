@@ -1,0 +1,71 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+/test-results/
+/playwright-report/
+/blob-report/
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+!.env.example
+!requirement/config/env.template
+requirement/config/secrets.env
+
+# runtime data
+/data/runs/
+/data/transcripts/
+/data/reports/
+/data/fund-knowledge/
+/data/l0-cache/
+/data/l0-sync-log.jsonl
+/data/settings/
+/data/seeds/
+
+# logs
+*.log
+
+# temp
+/tmp/
+/.tmp/
+/其他/.tmp/
+/其他/tmp/
+
+# IDE/agent tooling artifacts (generated, not committed)
+/.codegraph/
+/.omo/
+/.playwright-mcp/
+/agent/
+/其他/
+
+# skill cache duplicates (canonical source is /skills/)
+/data/skills/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

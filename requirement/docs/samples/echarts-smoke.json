@@ -1,0 +1,7 @@
+{
+  "title": { "text": "ECharts Smoke", "left": "center" },
+  "tooltip": { "trigger": "axis" },
+  "xAxis": { "type": "category", "data": ["A", "B", "C"] },
+  "yAxis": { "type": "value" },
+  "series": [{ "type": "bar", "data": [1, 2, 3] }]
+}

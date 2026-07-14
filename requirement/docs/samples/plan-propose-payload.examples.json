@@ -1,0 +1,167 @@
+{
+  "_meta": {
+    "prd": "requirement/prd/07-allocation-plan.md §7.4",
+    "mock_funds_note": "样例 6 只基金仅用于格式验收 · 运行时 L0 须真全市场初筛（PL-PLAN-L0-FULL-01）",
+    "artifact_kinds": ["plan_allocation", "plan_detail"]
+  },
+  "plan_allocation": {
+    "kind": "plan_allocation",
+    "goal_constraint_id": "8f3c2a1b-4d5e-6f70-8192-a3b4c5d6e7f0",
+    "goal_display_name": "退休养老",
+    "target_allocation": {
+      "total_amount_cny": 192000,
+      "categories": [
+        { "category": "股票类", "allocation_pct": 25, "amount_cny": 48000 },
+        { "category": "债券类", "allocation_pct": 55, "amount_cny": 105600 },
+        { "category": "货币类", "allocation_pct": 20, "amount_cny": 38400 }
+      ]
+    },
+    "allocation_rationale": "您偏稳健、退休约 25 年后，权益不宜过高；债券与货币占多数留缓冲，股票类约 25% 争取长期增值。比例对齐您确认的投资期限、约 -15% 回撤边界与每月定投节奏。"
+  },
+  "plan_detail": {
+    "kind": "plan_detail",
+    "goal_constraint_id": "8f3c2a1b-4d5e-6f70-8192-a3b4c5d6e7f0",
+    "goal_display_name": "退休养老",
+    "target_allocation_summary": {
+      "股票类": 25,
+      "债券类": 55,
+      "货币类": 20
+    },
+    "detailed_plan": {
+      "categories": [
+        {
+          "category": "股票类",
+          "allocation_pct": 25,
+          "items": [
+            {
+              "fund_code": "110020",
+              "fund_name": "易方达沪深300ETF联接A",
+              "weight_in_category": 48,
+              "allocation_pct_of_portfolio": 12,
+              "recommendation_reason": "宽基打底，覆盖 A 股大盘；与稳健回撤边界匹配。"
+            },
+            {
+              "fund_code": "001938",
+              "fund_name": "中欧时代先锋股票A",
+              "weight_in_category": 32,
+              "allocation_pct_of_portfolio": 8,
+              "recommendation_reason": "全市场主动，与宽基低相关，分散单一指数风险。"
+            },
+            {
+              "fund_code": "110022",
+              "fund_name": "易方达消费行业股票",
+              "weight_in_category": 20,
+              "allocation_pct_of_portfolio": 5,
+              "recommendation_reason": "行业卫星 · 依据第二步公开资讯相对看好消费景气（非用户事先指定）。"
+            }
+          ]
+        },
+        {
+          "category": "债券类",
+          "allocation_pct": 55,
+          "items": [
+            {
+              "fund_code": "050027",
+              "fund_name": "博时信用债券A",
+              "weight_in_category": 55,
+              "allocation_pct_of_portfolio": 30,
+              "recommendation_reason": "信用债为主，收益略高于纯利率债；与底仓角色一致。"
+            },
+            {
+              "fund_code": "217022",
+              "fund_name": "招商安泰债券A",
+              "weight_in_category": 45,
+              "allocation_pct_of_portfolio": 25,
+              "recommendation_reason": "二级债基含权适度；波动高于纯债但低于股票，首期少配、定投补齐。"
+            }
+          ]
+        },
+        {
+          "category": "货币类",
+          "allocation_pct": 20,
+          "items": [
+            {
+              "fund_code": "000009",
+              "fund_name": "易方达天天理财货币A",
+              "weight_in_category": 100,
+              "allocation_pct_of_portfolio": 20,
+              "recommendation_reason": "流动性储备 · 首期一次性配满 · 不参与定投。"
+            }
+          ]
+        }
+      ]
+    },
+    "execution_schedule": {
+      "deploy_mode": "phased",
+      "deploy_frequency": "每月",
+      "deploy_periods": 24,
+      "period_new_cash_cny": 3000,
+      "existing_lump_cny": 120000,
+      "fund_deploy": [
+        {
+          "fund_code": "000009",
+          "deploy_pattern": "initial_full",
+          "initial_pct_of_fund_target": 100,
+          "dca_in_periodic": false,
+          "note": "货币净值几乎不动，无择时意义，首期配满。"
+        },
+        {
+          "fund_code": "050027",
+          "deploy_pattern": "initial_majority",
+          "initial_pct_of_fund_target": 60,
+          "dca_in_periodic": true,
+          "note": "信用债有利差波动；首期建大部分底仓，剩余用定投平滑利率时点。"
+        },
+        {
+          "fund_code": "217022",
+          "deploy_pattern": "initial_majority",
+          "initial_pct_of_fund_target": 50,
+          "dca_in_periodic": true,
+          "note": "二级债含权，波动接近权益侧；首期约一半，定投补齐。"
+        },
+        {
+          "fund_code": "110020",
+          "deploy_pattern": "phased_dca",
+          "initial_pct_of_fund_target": 20,
+          "dca_in_periodic": true,
+          "note": "股票波动大，分批降低择时风险。"
+        },
+        {
+          "fund_code": "001938",
+          "deploy_pattern": "phased_dca",
+          "initial_pct_of_fund_target": 20,
+          "dca_in_periodic": true,
+          "note": "同上。"
+        },
+        {
+          "fund_code": "110022",
+          "deploy_pattern": "phased_dca",
+          "initial_pct_of_fund_target": 0,
+          "dca_in_periodic": true,
+          "note": "行业卫星由定投启动，避免一次性押行业时点。"
+        }
+      ],
+      "initial_tranche": [
+        { "fund_code": "000009", "fund_name": "易方达天天理财货币A", "amount_cny": 24000, "pct_of_fund_target": 100 },
+        { "fund_code": "050027", "fund_name": "博时信用债券A", "amount_cny": 34000, "pct_of_fund_target": 60 },
+        { "fund_code": "217022", "fund_name": "招商安泰债券A", "amount_cny": 24000, "pct_of_fund_target": 50 },
+        { "fund_code": "110020", "fund_name": "易方达沪深300ETF联接A", "amount_cny": 2400, "pct_of_fund_target": 20 },
+        { "fund_code": "001938", "fund_name": "中欧时代先锋股票A", "amount_cny": 1600, "pct_of_fund_target": 20 },
+        { "fund_code": "110022", "fund_name": "易方达消费行业股票", "amount_cny": 0, "pct_of_fund_target": 0 }
+      ],
+      "periodic_tranche": [
+        { "fund_code": "110020", "fund_name": "易方达沪深300ETF联接A", "amount_cny_per_period": 900 },
+        { "fund_code": "001938", "fund_name": "中欧时代先锋股票A", "amount_cny_per_period": 600 },
+        { "fund_code": "110022", "fund_name": "易方达消费行业股票", "amount_cny_per_period": 300 },
+        { "fund_code": "050027", "fund_name": "博时信用债券A", "amount_cny_per_period": 720 },
+        { "fund_code": "217022", "fund_name": "招商安泰债券A", "amount_cny_per_period": 480 },
+        { "fund_code": "000009", "fund_name": "易方达天天理财货币A", "amount_cny_per_period": 0 }
+      ],
+      "deploy_summary_zh": "首期：货币+大部分债券+少量股票试水（约 8.6 万）；定投：股票+剩余债券 · 货币不参与"
+    },
+    "web_citations": [
+      { "title": "央行货币政策执行报告摘要", "url": "https://example.com/mpr", "snippet": "利率与流动性环境…" },
+      { "title": "宽基指数估值分位（公开数据）", "url": "https://example.com/val", "snippet": "部分宽基处近五年中等偏下…" }
+    ]
+  }
+}

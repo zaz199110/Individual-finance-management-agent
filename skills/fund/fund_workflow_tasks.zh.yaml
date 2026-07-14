@@ -1,0 +1,115 @@
+# 基金解读 Tab · workflow_tasks 任务图（对客阶段条）
+# 权威 PRD → requirement/prd/09-fund-analysis.md §9.1.10
+# 落盘 → workflow_tasks（shared §5.11.4 · 一级平铺）
+
+scene: fund
+decision_ids:
+  - PL-STAGE-FUND-01
+
+# fund_qa：仅 fund.qa.* 两节点（§9.1.10.2）
+# fund_full_report：fund.prep.* → fund.gather.* → fund.rpt.*（§9.1.10.3）
+# fund.prep.enrich：FK-ENRICH-01 · 无 vault 或披露过期时 fetch+index
+# status: pending | running | done | blocked | cancelled
+# blocked: fund.prep.clarify / fund.rpt.overwrite / fund.rpt.wait
+
+tasks:
+  # ── 简答 · fund_qa（§9.1.10.2）──
+  - task_key: fund.qa.understand
+    node_depth: 1
+    label: 理解您的问题
+    note: Planner 判 fund_qa 或 simple_qa 后立即 running
+
+  - task_key: fund.qa.answer
+    node_depth: 1
+    label: 检索并整理回答
+    note: 按需 L0/L1/联网；无草稿、无写库
+
+  # ── 完整解读 · 准备（§9.1.10.3 A）──
+  - task_key: fund.prep.intent
+    node_depth: 1
+    label: 理解您的解读需求
+    note: FUND-INTENT-01；自选 AI 解析可 auto-done
+
+  - task_key: fund.prep.lookup
+    node_depth: 1
+    label: 确认基金档案与类型
+    command: fund_lookup
+
+  - task_key: fund.prep.l0_sync
+    node_depth: 1
+    label: 同步行情、费率与持仓
+    note: 本地 L0 · 直接落盘不写 L2 · 含行情/费率/持仓结构
+
+  - task_key: fund.prep.enrich.fetch
+    node_depth: 1
+    label: 拉取近一年公开资料
+    note: FK-ENRICH-01 · seed 单基金同步 ∥ 联网摘要落 md
+
+  - task_key: fund.prep.enrich.index
+    node_depth: 1
+    label: 更新搜索索引
+    note: FTS rebuildIndex(scope=fund) · 不写 L2
+
+  - task_key: fund.prep.clarify
+    node_depth: 1
+    label: 等待您确认解读方式
+    status_default: blocked
+    note: 仅代码无「报告」话术时 blocked；选完整报告后继续
+
+  # ── 完整解读 · 资料检索 KB-03（§9.1.10.3 B）──
+  - task_key: fund.gather.l0
+    node_depth: 1
+    label: 拉取行情与持仓
+    command: fund_lookup
+    note: L0 · 与 L1 并行
+
+  - task_key: fund.gather.l1
+    node_depth: 1
+    label: 检索披露文件
+    command: fund_knowledge_explore
+    note: L1 · L2 内部触发；L3 见 fund.gather.l3
+
+  - task_key: fund.gather.l3
+    node_depth: 1
+    label: 联网检索公开资料
+    command: web_search
+    note: L3 · 无 vault / L0 缺口 / 披露不全时 · FK-CITE-NOVAULT-01
+
+  - task_key: fund.gather.profile
+    node_depth: 1
+    label: （进度占位）
+    command: profile_read
+    note: 本期 auto-done · 不调用 profile_read · 不做 FK-18-07 联动
+
+  # ── 完整解读 · 报告与发布（§9.1.10.3 C）──
+  - task_key: fund.rpt.draft.compose
+    node_depth: 1
+    label: 撰写基金解读报告
+    command: report_draft
+    note: RPT-FUND-TPL · echarts · FK-CITE
+
+  - task_key: fund.rpt.draft.verify
+    node_depth: 1
+    label: 核对报告结构与引用
+    command: fund_report_verify
+
+  - task_key: fund.rpt.preview
+    node_depth: 1
+    label: 打开报告预览
+    note: 模式 B
+
+  - task_key: fund.rpt.overwrite
+    node_depth: 1
+    label: 等待确认覆盖旧草稿
+    status_default: blocked
+    note: RPT-DRAFT-01 · 已有草稿再生成时
+
+  - task_key: fund.rpt.wait
+    node_depth: 1
+    label: 等待您确认发布
+    status_default: blocked
+
+  - task_key: fund.rpt.publish
+    node_depth: 1
+    label: 保存至我的报告
+    command: report_publish

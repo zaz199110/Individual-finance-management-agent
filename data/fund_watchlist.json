@@ -1,0 +1,23 @@
+[
+  {
+    "id": "local-000198",
+    "fund_code": "000198",
+    "fund_name": "天弘余额宝货币",
+    "added_at": "2026-01-01T00:00:01+08:00",
+    "last_analysis_at": null
+  },
+  {
+    "id": "local-217022",
+    "fund_code": "217022",
+    "fund_name": "招商产业债券A",
+    "added_at": "2026-01-01T00:00:02+08:00",
+    "last_analysis_at": null
+  },
+  {
+    "id": "local-110022",
+    "fund_code": "110022",
+    "fund_name": "易方达消费行业股票",
+    "added_at": "2026-01-01T00:00:03+08:00",
+    "last_analysis_at": null
+  }
+]

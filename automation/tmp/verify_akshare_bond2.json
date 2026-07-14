@@ -1,0 +1,58 @@
+{
+  "index_zh_a_hist_csindex_000832": {
+    "ok": false,
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "bond_cb_index_jsl": {
+    "ok": true,
+    "rows": 250,
+    "cols": [
+      "price_dt",
+      "price",
+      "amount",
+      "volume",
+      "count",
+      "increase_val",
+      "increase_rt",
+      "avg_price"
+    ],
+    "tail": [
+      {
+        "price_dt": "2026-06-18",
+        "price": 2735.247,
+        "amount": 4682.54,
+        "volume": 852.8,
+        "count": 308,
+        "increase_val": -21.141,
+        "increase_rt": -0.77,
+        "avg_price": 167.469,
+        "mid_price": 132.464,
+        "mid_convert_value": 89.49,
+        "avg_dblow": 230.31,
+        "avg_premium_rt": 62.84,
+        "mid_premium_rt": 48.41,
+        "avg_ytm_rt": -12.65,
+        "temperature": 76.24,
+        "turnover_rt": 18.21,
+        "price_90": 2,
+        "price_90_100": 3,
+        "price_100_110": 10,
+        "price_110_120": 39,
+        "price_120_130": 83,
+        "price_130": 171,
+        "increase_rt_90": -5.68,
+        "increase_rt_90_100": -0.27,
+        "increase_rt_100_110": -0.79,
+        "increase_rt_110_120": -0.58,
+        "increase_rt_120_130": -1.02,
+        "increase_rt_130": -0.64,
+        "idx_price": 4941.599,
+        "idx_increase_rt": 0.21
+      }
+    ]
+  },
+  "index_csindex_all": {
+    "ok": false,
+    "error": "index_csindex_all() got an unexpected keyword argument 'symbol'"
+  }
+}

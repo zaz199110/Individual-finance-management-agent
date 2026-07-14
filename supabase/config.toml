@@ -1,0 +1,44 @@
+# 本地 Supabase 栈（supabase start）
+# 文档：docs/LOCAL-SUPABASE-MIGRATION.md
+
+project_id = "agent-demo-coding"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 17
+
+[studio]
+enabled = true
+port = 54323
+
+[local_smtp]
+enabled = true
+port = 54324
+
+[storage]
+enabled = true
+file_size_limit = "50MiB"
+
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:3000"
+additional_redirect_urls = ["http://127.0.0.1:3000"]
+jwt_expiry = 3600
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = false
+
+# Windows Docker Desktop 网络隔离导致 vector 无法连接 Docker socket
+# 禁用日志收集（不影响核心功能：API/DB/Auth/Storage）
+[analytics]
+enabled = false

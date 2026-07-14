@@ -1,0 +1,103 @@
+{
+  "index_zh_a_hist_sh000300": {
+    "ok": false,
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "index_zh_a_hist_000300": {
+    "ok": false,
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "stock_zh_index_daily_sh000300": {
+    "ok": true,
+    "rows": 5931,
+    "cols": [
+      "date",
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume"
+    ],
+    "tail": [
+      {
+        "date": "2026-06-17",
+        "open": 4859.701,
+        "high": 4933.929,
+        "low": 4859.701,
+        "close": 4931.386,
+        "volume": 27605395000
+      },
+      {
+        "date": "2026-06-18",
+        "open": 4916.044,
+        "high": 4976.891,
+        "low": 4916.044,
+        "close": 4941.599,
+        "volume": 33445990200
+      }
+    ]
+  },
+  "stock_zh_index_daily_em_sh000300": {
+    "ok": false,
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "index_zh_a_hist_000832": {
+    "ok": false,
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "index_zh_a_hist_H11001": {
+    "ok": false,
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  "fund_money_fund_daily_em": {
+    "ok": true,
+    "rows": 544,
+    "cols": [
+      "基金代码",
+      "基金简称",
+      "2026-06-18-万份收益",
+      "2026-06-18-7日年化%",
+      "2026-06-18-单位净值",
+      "2026-06-17-万份收益",
+      "2026-06-17-7日年化%",
+      "2026-06-17-单位净值",
+      "日涨幅",
+      "成立日期",
+      "基金经理",
+      "手续费",
+      "可购全部"
+    ],
+    "tail": [
+      {
+        "基金代码": "004699",
+        "基金简称": "前海联合汇盈货币A",
+        "2026-06-18-万份收益": "0.1596",
+        "2026-06-18-7日年化%": "0.5630%",
+        "2026-06-18-单位净值": "---",
+        "2026-06-17-万份收益": "0.1594",
+        "2026-06-17-7日年化%": "0.5620%",
+        "2026-06-17-单位净值": "---",
+        "日涨幅": "---",
+        "成立日期": "2017-05-25",
+        "基金经理": "张文",
+        "手续费": "0费率",
+        "可购全部": "购买"
+      },
+      {
+        "基金代码": "003816",
+        "基金简称": "银华日利B",
+        "2026-06-18-万份收益": "---",
+        "2026-06-18-7日年化%": "---",
+        "2026-06-18-单位净值": "100.6080",
+        "2026-06-17-万份收益": "---",
+        "2026-06-17-7日年化%": "---",
+        "2026-06-17-单位净值": "100.5954",
+        "日涨幅": "0.01%",
+        "成立日期": "2016-11-23",
+        "基金经理": "王树丽",
+        "手续费": "0费率",
+        "可购全部": "购买"
+      }
+    ]
+  }
+}

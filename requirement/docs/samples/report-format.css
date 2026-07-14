@@ -1,0 +1,138 @@
+/**
+ * 报告 Markdown Preview · 统一版式（RPT-FORMAT-01）
+ * 与 report-heading-numbers.css 一并引入 ReportMarkdownPreview。
+ */
+.report-md-body {
+  color: #0f172a;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.report-md-body h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+
+.report-md-body h1 + p {
+  margin-top: 0.25rem;
+  color: #64748b;
+  font-size: 0.92rem;
+}
+
+.report-md-body hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 1.75rem 0;
+}
+
+.report-md-body h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.65rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #e2e8f0;
+  color: #0f172a;
+  line-height: 1.4;
+}
+
+.report-md-body h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 1.15rem 0 0.5rem;
+  color: #1e293b;
+}
+
+.report-md-body h4 {
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 0.9rem 0 0.4rem;
+  color: #334155;
+}
+
+/* 章首「本章回答」引导段 */
+.report-md-body h2 + p {
+  margin-top: 0.35rem;
+  margin-bottom: 1rem;
+  padding: 0.65rem 0.85rem;
+  background: #f8fafc;
+  border-left: 3px solid #3b82f6;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.94rem;
+  color: #334155;
+}
+
+.report-md-body blockquote {
+  margin: 0.75rem 0 1rem;
+  padding: 0.85rem 1rem;
+  border-left: 4px solid #22c55e;
+  background: #f0fdf4;
+  border-radius: 0 8px 8px 0;
+  color: #14532d;
+  font-size: 0.94rem;
+}
+
+.report-md-body blockquote p {
+  margin: 0.35rem 0;
+}
+
+.report-md-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0 1.1rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.report-md-body th,
+.report-md-body td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.report-md-body th {
+  background: #f1f5f9;
+  font-weight: 600;
+  color: #334155;
+}
+
+.report-md-body tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+.report-md-body ul,
+.report-md-body ol {
+  margin: 0.5rem 0 1rem;
+  padding-left: 1.35rem;
+}
+
+.report-md-body li {
+  margin: 0.25rem 0;
+}
+
+.report-md-body p {
+  margin: 0.5rem 0 0.85rem;
+}
+
+.report-md-body .echarts-slot,
+.report-md-body [data-echarts] {
+  margin: 1rem 0 1.25rem;
+  min-height: 280px;
+}
+
+.report-md-body em {
+  color: #64748b;
+}
+
+.report-md-body > p:last-of-type em {
+  display: block;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #e2e8f0;
+  font-size: 0.88rem;
+  text-align: center;
+}

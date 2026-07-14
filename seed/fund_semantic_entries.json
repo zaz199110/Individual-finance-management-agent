@@ -1,0 +1,4594 @@
+{
+  "fund_code": "*",
+  "description": "L2-SEED-02 · 通用 FAQ 100 条（fund_code=* · 任意基金）；专家观点仅 vault L1",
+  "entries": [
+    {
+      "entry_type": "faq",
+      "title": "管理费、托管费、销售服务费分别是多少？",
+      "body": "运作费用从基金资产计提并反映在净值中。须 explore 最新产品资料概要「费率结构」，禁止凭记忆写具体数字。",
+      "metadata": {
+        "keywords": [
+          "管理费",
+          "托管费",
+          "销售服务费",
+          "费率"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "申购费和赎回费怎么收？",
+      "body": "因份额类别与销售渠道而异；C 类常免申购费。检索概要申购赎回章节，持有期产品须说明满期后费率。",
+      "metadata": {
+        "keywords": [
+          "申购费",
+          "赎回费"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持有满一年赎回还要钱吗？",
+      "body": "赎回费与持有期限相关，见概要费率表。最短持有期未满可能收取较高赎回费。",
+      "metadata": {
+        "keywords": [
+          "赎回费",
+          "持有期"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金费用会不会很高？",
+      "body": "对比管理费+托管费+销售服务费合计，结合产品类型判断；货币/存单通常低于主动权益。",
+      "metadata": {
+        "keywords": [
+          "贵不贵",
+          "费率"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "C 类份额和 A 类份额费率差在哪？",
+      "body": "主要差异在申购费与销售服务费结构，以各份额最新概要为准。",
+      "metadata": {
+        "keywords": [
+          "C类",
+          "A类",
+          "份额"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "从净值里扣费是什么意思？",
+      "body": "管理费/托管费每日计提，投资者不单独收到账单，但净值已扣除。",
+      "metadata": {
+        "keywords": [
+          "计提",
+          "净值"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "销售平台打折后费率怎么算？",
+      "body": "渠道折扣不改变基金合同费率，仅影响申购费；以平台展示为准。",
+      "metadata": {
+        "keywords": [
+          "折扣",
+          "申购"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有没有隐性费用？",
+      "body": "法律文件列示主要运作费用；交易佣金等已含在净值运作中，勿夸大恐吓。",
+      "metadata": {
+        "keywords": [
+          "费用",
+          "透明"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "FOF 会不会双重收费？",
+      "body": "FOF 收取自身管理费，底层子基金亦有其费用；概要须说明。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "双重收费"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持有成本大概多少？",
+      "body": "可用管理费+托管费年化粗算持有成本；申购赎回费取决于交易行为。",
+      "metadata": {
+        "keywords": [
+          "持有成本",
+          "粗算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "这只基金稳不稳？适合什么人？",
+      "body": "结合类型、回撤与风险等级 R1–R5；货币/存单偏稳，权益/QDII 波动大。",
+      "metadata": {
+        "keywords": [
+          "稳不稳",
+          "适合谁"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "主要风险有哪些？",
+      "body": "从风险揭示摘 3 条以内：市场、信用、流动性等，依产品类型取舍。",
+      "metadata": {
+        "keywords": [
+          "风险揭示",
+          "风险"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "会不会亏光本金？",
+      "body": "不承诺保本；说明类型典型波动与最大回撤，避免绝对化表述。",
+      "metadata": {
+        "keywords": [
+          "本金",
+          "亏损"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "风险等级 R 几代表什么？",
+      "body": "R1–R5 为销售机构评定参考，不等于不会下跌；须配风险揭示原文。",
+      "metadata": {
+        "keywords": [
+          "R1",
+          "R2",
+          "风险等级"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "QDII 有哪些额外风险？",
+      "body": "汇率、境外市场、时差、额度与换汇规则；is_qdii 为真时必写。",
+      "metadata": {
+        "keywords": [
+          "QDII",
+          "汇率"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "行业主题基金会更危险吗？",
+      "body": "赛道集中导致波动可能高于宽基；看重仓与行业配置集中度。",
+      "metadata": {
+        "keywords": [
+          "行业",
+          "主题"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "债券基金会血亏吗？",
+      "body": "纯债一般波动小于权益，但信用债仍有违约与利率风险。",
+      "metadata": {
+        "keywords": [
+          "债券",
+          "信用风险"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "迷你基金有什么风险？",
+      "body": "规模过小可能清盘或流动性差；有数据则引用季报规模。",
+      "metadata": {
+        "keywords": [
+          "清盘",
+          "规模"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "杠杆或分级产品风险？",
+      "body": "特殊结构产品须按合同说明杠杆机制；普通公募通常无杠杆。",
+      "metadata": {
+        "keywords": [
+          "杠杆"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "政策变化会影响吗？",
+      "body": "监管、行业政策可能影响持仓；可 L3 补充但硬事实仍以 L1 为准。",
+      "metadata": {
+        "keywords": [
+          "政策",
+          "监管"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资范围是什么？",
+      "body": "界定可投股票/债券/存单/基金等；摘 3 条要点，勿贴全文。",
+      "metadata": {
+        "keywords": [
+          "投资范围"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资策略怎么运作？",
+      "body": "说明主动选股、指数复制、久期策略等；与产品类型一致。",
+      "metadata": {
+        "keywords": [
+          "投资策略"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资目标是什么？",
+      "body": "来自概要首段；与业绩比较基准、类型相互印证。",
+      "metadata": {
+        "keywords": [
+          "投资目标"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能买港股/美股吗？",
+      "body": "QDII/互认基金看合同境外范围；纯 A 股基金不行。",
+      "metadata": {
+        "keywords": [
+          "港股",
+          "美股",
+          "境外"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能买可转债吗？",
+      "body": "二级债/偏债混合可能含转债；纯债/货币通常不含。",
+      "metadata": {
+        "keywords": [
+          "可转债"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "股票仓位上下限是多少？",
+      "body": "混合基金合同常有 60%–95% 等区间；以概要为准。",
+      "metadata": {
+        "keywords": [
+          "股票仓位",
+          "混合"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否投资 ST 股票？",
+      "body": "一般禁止或受限；检索投资限制条款。",
+      "metadata": {
+        "keywords": [
+          "ST",
+          "限制"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "业绩比较基准是什么？",
+      "body": "用于衡量相对表现；须与指数/策略匹配。",
+      "metadata": {
+        "keywords": [
+          "业绩比较基准"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "指数增强和完全复制有何不同？",
+      "body": "增强型允许主动偏离；须讨论跟踪误差与超额。",
+      "metadata": {
+        "keywords": [
+          "增强指数",
+          "指数"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "FOF 怎么选子基金？",
+      "body": "看 FOF 合同与季报前十子基金；说明双重收费与策略。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "子基金"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "近一年收益怎么样？",
+      "body": "用 L0 return_1y 并注明 as_of_trade_date；强调历史不代表未来。",
+      "metadata": {
+        "keywords": [
+          "近一年",
+          "收益"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "最大回撤有多大？",
+      "body": "用 L0 max_drawdown_1y 或报告区间；解释动态回撤含义。",
+      "metadata": {
+        "keywords": [
+          "最大回撤",
+          "回撤"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和业绩基准比如何？",
+      "body": "比较区间超额或跟踪偏离；数据口径须一致。",
+      "metadata": {
+        "keywords": [
+          "基准",
+          "超额"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "为什么跑输/跑赢基准？",
+      "body": "主动型看选股；指数型看费用与跟踪误差；给 1–2 条合理解释。",
+      "metadata": {
+        "keywords": [
+          "跑输",
+          "跑赢"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "成立以来表现如何？",
+      "body": "可用季报多区间表；避免过长数字堆砌。",
+      "metadata": {
+        "keywords": [
+          "成立以来"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "波动大不大？",
+      "body": "结合回撤与类型；可引用六维雷达「波动」轴为相对参考。",
+      "metadata": {
+        "keywords": [
+          "波动"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "同类排名怎么看？",
+      "body": "第三方排名作参考，非官方评级；可不写具体名次以免过时。",
+      "metadata": {
+        "keywords": [
+          "排名",
+          "同类"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "净值为什么突然下跌？",
+      "body": "市场回调、分红除权、重仓行业下跌等；先查 L0 与公告。",
+      "metadata": {
+        "keywords": [
+          "净值",
+          "下跌"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "夏普比率/风险收益比？",
+      "body": "若报告六维提及，说明为示意换算分，非承诺。",
+      "metadata": {
+        "keywords": [
+          "夏普",
+          "六维"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "牛市/熊市表现差异？",
+      "body": "结合历史区间描述；无数据则定性说明类型特征。",
+      "metadata": {
+        "keywords": [
+          "牛市",
+          "熊市"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "赎回多久到账？",
+      "body": "开放式 T 日申请 T+N 确认；QDII 更慢。见概要申购赎回规则。",
+      "metadata": {
+        "keywords": [
+          "赎回",
+          "到账"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有没有最短持有期？",
+      "body": "持有期产品未满期不可赎回；存单 7 天持有等须明确。",
+      "metadata": {
+        "keywords": [
+          "持有期",
+          "7天"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "封闭期能卖吗？",
+      "body": "封闭/定开产品仅在开放期赎回；检索运作方式。",
+      "metadata": {
+        "keywords": [
+          "封闭期"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "节假日能交易吗？",
+      "body": "按开放日与交易所日历；QDII 另有时差。",
+      "metadata": {
+        "keywords": [
+          "节假日",
+          "开放日"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "大额赎回会受影响吗？",
+      "body": "巨额赎回条款见合同；一般散户影响小，可略写。",
+      "metadata": {
+        "keywords": [
+          "巨额赎回"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "转换到其他基金可以吗？",
+      "body": "同公司可能支持转换；费率以销售机构为准。",
+      "metadata": {
+        "keywords": [
+          "转换"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "最低申购金额多少？",
+      "body": "渠道规则为主；法律文件通常不固定。",
+      "metadata": {
+        "keywords": [
+          "起购",
+          "最低"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "流动性比货币差多少？",
+      "body": "权益/混合赎回慢于货币；说明 T+N 与波动权衡。",
+      "metadata": {
+        "keywords": [
+          "流动性",
+          "货币"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定开基金什么时候开放？",
+      "body": "见产品开放公告；定开须按开放期操作。",
+      "metadata": {
+        "keywords": [
+          "定开",
+          "开放"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "other"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "暂停申购赎回是怎么回事？",
+      "body": "以最新公告为准；可 L3 补充。",
+      "metadata": {
+        "keywords": [
+          "暂停申购"
+        ],
+        "suggested_doc_types": [
+          "other"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "分红多不多？",
+      "body": "看历史分红与合同政策；货币型每日结转。",
+      "metadata": {
+        "keywords": [
+          "分红"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "现金分红还是红利再投资？",
+      "body": "两种方式可选，默认以销售平台设置为准。",
+      "metadata": {
+        "keywords": [
+          "分红方式"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "分红后净值为什么跌？",
+      "body": "除息导致净值跳降，资产总量不变。",
+      "metadata": {
+        "keywords": [
+          "除息",
+          "分红"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定期支付型产品怎么分红？",
+      "body": "平衡/双息等特殊机制按合同；勿与普通分红混淆。",
+      "metadata": {
+        "keywords": [
+          "定期支付"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有没有分红记录？",
+      "body": "用 L0 dividend_history 或年报；无则写「暂无公开记录」。",
+      "metadata": {
+        "keywords": [
+          "分红记录"
+        ],
+        "suggested_doc_types": [
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金经理是谁？",
+      "body": "概要/季报「基金经理」；任职变更须提示。",
+      "metadata": {
+        "keywords": [
+          "基金经理"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "经理任职期间表现？",
+      "body": "仅作参考，注明任职区间；避免夸大。",
+      "metadata": {
+        "keywords": [
+          "任职",
+          "经理"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "会不会换基金经理？",
+      "body": "季报披露变更；主动型须关注风格延续。",
+      "metadata": {
+        "keywords": [
+          "变更",
+          "经理"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金管理公司可靠吗？",
+      "body": "陈述基金公司名称与托管人；不做主观评级。",
+      "metadata": {
+        "keywords": [
+          "管理人",
+          "基金公司"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金托管人是谁？",
+      "body": "托管人负责资产保管；见概要产品概况表。",
+      "metadata": {
+        "keywords": [
+          "托管人"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "前十大重仓是什么？",
+      "body": "来自最近季报 L0/L1；注明 as_of 滞后。",
+      "metadata": {
+        "keywords": [
+          "重仓",
+          "前十"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "行业配置集中吗？",
+      "body": "季报行业/券种表 + L0；主动权益看单一行业占比。",
+      "metadata": {
+        "keywords": [
+          "行业配置"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "股票还是债券为主？",
+      "body": "asset_allocation 饼图与文字一致。",
+      "metadata": {
+        "keywords": [
+          "股债",
+          "资产配置"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "存单/债券前十大有哪些？",
+      "body": "固收/存单型看券种明细，勿写「重仓股」。",
+      "metadata": {
+        "keywords": [
+          "存单",
+          "债券"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "子基金前十大（FOF）？",
+      "body": "FOF 看前十子基金权重。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "子基金"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "海外重仓股有哪些？",
+      "body": "QDII/互认看季报境外持仓。",
+      "metadata": {
+        "keywords": [
+          "海外",
+          "QDII"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "指数成分股复制程度？",
+      "body": "指数型说明抽样/完全复制与跟踪误差。",
+      "metadata": {
+        "keywords": [
+          "成分股",
+          "指数"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "换手率高低说明什么？",
+      "body": "高换手可能增加成本；数据来自年报/半年报。",
+      "metadata": {
+        "keywords": [
+          "换手率"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持有人结构如何？",
+      "body": "个人/机构占比来自 holder_structure。",
+      "metadata": {
+        "keywords": [
+          "持有人"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "仓位最近有没有大变化？",
+      "body": "对比两期季报资产组合；无数据则略。",
+      "metadata": {
+        "keywords": [
+          "仓位变化"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是被动指数还是主动管理？",
+      "body": "决定报告话术与第三章图表；指数看跟踪，主动看选股。",
+      "metadata": {
+        "keywords": [
+          "指数",
+          "主动"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和 ETF 联接有什么区别？",
+      "body": "联接基金主要投资目标 ETF；见概要投资范围。",
+      "metadata": {
+        "keywords": [
+          "ETF联接"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "同业存单指数适合什么场景？",
+      "body": "短久期现金管理增强；7 天持有等限制须写清。",
+      "metadata": {
+        "keywords": [
+          "同业存单"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "货币型和短债怎么选？",
+      "body": "货币流动性最好；短债收益略高但波动也略大。",
+      "metadata": {
+        "keywords": [
+          "货币",
+          "短债"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "黄金 ETF 联接是做什么的？",
+      "body": "跟踪黄金价格，对冲通胀；波动来自金价。",
+      "metadata": {
+        "keywords": [
+          "黄金",
+          "商品"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "QDII 额度受限怎么办？",
+      "body": "可能影响申购；以公告为准。",
+      "metadata": {
+        "keywords": [
+          "QDII",
+          "额度"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "养老 Y 份额有何不同？",
+      "body": "个人养老金份额可能有费率/锁定差异。",
+      "metadata": {
+        "keywords": [
+          "养老Y"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 LOF/ETF？",
+      "body": "上市交易规则不同；见产品形态。",
+      "metadata": {
+        "keywords": [
+          "LOF",
+          "ETF"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 FOF？",
+      "body": "FOF 持有其他基金，看前十子基金与费用。",
+      "metadata": {
+        "keywords": [
+          "FOF"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 REITs？",
+      "body": "若投资 REITs 须单独说明流动性与分红特征。",
+      "metadata": {
+        "keywords": [
+          "REITs"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "适合定投吗？",
+      "body": "长期权益/QDII 常见；不能消除波动。",
+      "metadata": {
+        "keywords": [
+          "定投"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "适合当底仓吗？",
+      "body": "低波固收/货币/存单更适合；高波权益控制比例。",
+      "metadata": {
+        "keywords": [
+          "底仓"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和自家其他基金怎么配？",
+      "body": "仅作类型对照，不构成推荐名单。",
+      "metadata": {
+        "keywords": [
+          "配置",
+          "组合"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能替代银行存款吗？",
+      "body": "基金非存款，不保本保收益；货币/存单亦不等同活期。",
+      "metadata": {
+        "keywords": [
+          "存款",
+          "替代"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "一次买还是分批买？",
+      "body": "取决于波动承受；不提供买卖建议。",
+      "metadata": {
+        "keywords": [
+          "分批",
+          "一次性"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资期限建议多久？",
+      "body": "权益建议 3 年以上；短债/货币可更短。",
+      "metadata": {
+        "keywords": [
+          "期限",
+          "长期"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和同类基金比优势？",
+      "body": "对比费率、跟踪误差、回撤、风格；避免排名过时。",
+      "metadata": {
+        "keywords": [
+          "同类",
+          "对比"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "海外配置有什么意义？",
+      "body": "分散单一市场；QDII 须提示汇率。",
+      "metadata": {
+        "keywords": [
+          "海外",
+          "分散"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "消费/科技/医药赛道差异？",
+      "body": "主题基金看行业暴露与经理风格。",
+      "metadata": {
+        "keywords": [
+          "赛道",
+          "主题"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否适合退休理财？",
+      "body": "需匹配风险承受与流动性；不提供个人理财建议。",
+      "metadata": {
+        "keywords": [
+          "退休",
+          "理财"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "产品资料概要在哪看？",
+      "body": "L1 explore prospectus；可 FK-CITE 深链。",
+      "metadata": {
+        "keywords": [
+          "产品资料概要",
+          "概要"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "招募书和概要有什么区别？",
+      "body": "概要简明；招募书完整；报告硬事实优先概要/定期报告。",
+      "metadata": {
+        "keywords": [
+          "招募书",
+          "概要"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "季报、半年报、年报何时披露？",
+      "body": "季报季度后 15 工作日内等；引用最近一期。",
+      "metadata": {
+        "keywords": [
+          "季报",
+          "年报"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "哪里查最新公告？",
+      "body": "基金公司官网/代销平台；L3 作补充。",
+      "metadata": {
+        "keywords": [
+          "公告"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "解读报告要注意什么？",
+      "body": "历史业绩不代表未来；数字以 L0 截止日与 L1 披露为准。",
+      "metadata": {
+        "keywords": [
+          "解读",
+          "免责"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "法律文件以哪个为准？",
+      "body": "冲突时以基金合同/招募书为准；概要便于快速阅读。",
+      "metadata": {
+        "keywords": [
+          "法律文件"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定期报告能当投资建议吗？",
+      "body": "报告仅供了解产品，不构成买卖建议。",
+      "metadata": {
+        "keywords": [
+          "投资建议",
+          "免责"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "如何核对净值日期？",
+      "body": "以 L0 as_of_trade_date 与披露一致为准。",
+      "metadata": {
+        "keywords": [
+          "净值日期",
+          "L0"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "知识库和联网信息谁优先？",
+      "body": "硬事实优先 L1 披露与 L0 行情；联网仅作背景或 enrich 失败兜底。",
+      "metadata": {
+        "keywords": [
+          "知识库",
+          "优先级"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "为什么季报持仓不是实时？",
+      "body": "定期报告有披露滞后，须向用户说明。",
+      "metadata": {
+        "keywords": [
+          "滞后",
+          "季报"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "管理费、托管费、销售服务费分别是多少呢？",
+      "body": "其实啊，运作费用从基金资产计提并反映在净值中。须 explore 最新产品资料概要「费率结构」，禁止凭记忆写具体数字哟。",
+      "metadata": {
+        "keywords": [
+          "管理费",
+          "托管费",
+          "销售服务费",
+          "费率",
+          "费率咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "运营费、资金托管费、销售佣金分别大概多少？",
+      "body": "运作开销从基金资产计提并反映在单位净值中。须 explore 最新投资标的资料概要「费用标准结构」，同时，禁止凭记忆写具体数字。",
+      "metadata": {
+        "keywords": [
+          "运作费",
+          "资金托管费",
+          "销售服务费",
+          "收费标准"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "申购费和赎回费怎么收呀？",
+      "body": "因份额类别与销售渠道而异；C 类常免申购费。检索概要申购赎回章节，持有期产品须说明满期后费率呢。",
+      "metadata": {
+        "keywords": [
+          "申购费",
+          "赎回费",
+          "申购费咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "买入费和取出成本如何收？",
+      "body": "因份额类别与销售渠道而异；C 类常免买入费。检索概要投资清仓章节，同时，拿着期基金产品须说明满期后收费标准。",
+      "metadata": {
+        "keywords": [
+          "进场费",
+          "赎回费"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持有满一年赎回还要钱吗啊？",
+      "body": "其实啊，赎回费与持有期限相关，见概要费率表。最短持有期未满可能收取较高赎回费哦。",
+      "metadata": {
+        "keywords": [
+          "赎回费",
+          "持有期",
+          "赎回费咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持仓满一年变现还要钱是否？",
+      "body": "取出成本与投资期限相关，见概要收费标准表。最短持有期未满可能收取较高取回费。",
+      "metadata": {
+        "keywords": [
+          "取出成本",
+          "持有期"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金费用可能吗很高吧？",
+      "body": "其实啊，对比管理费+托管费+销售服务费合计，结合产品类型判断；货币/存单通常低于主动权益。",
+      "metadata": {
+        "keywords": [
+          "贵不贵",
+          "费率",
+          "贵不贵咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金收费会不会很高？",
+      "body": "结合投资标的类型判断；货币/存单通常低于主动权益。，对比运作费+保管费+销售佣金合计",
+      "metadata": {
+        "keywords": [
+          "贵不贵",
+          "费率"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "C 类份额和 A 类份额费率差在哪哈？",
+      "body": "主要差异在申购费与销售服务费结构，以各份额最新概要为准哈。",
+      "metadata": {
+        "keywords": [
+          "C类",
+          "A类",
+          "份额",
+          "A类咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "C 类份额和 A 类份额成本标准差在哪？",
+      "body": "主要差异在买入费与渠道服务费结构，以各份额最新概要为准。",
+      "metadata": {
+        "keywords": [
+          "C类",
+          "A类",
+          "份额"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "从净值里扣费是啥意思呀？",
+      "body": "其实啊，管理费/托管费每日计提，投资者不单独收到账单，但净值已扣除哦。",
+      "metadata": {
+        "keywords": [
+          "计提",
+          "净值",
+          "计提咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "从价格里扣费是什么意思？",
+      "body": "运作费/存管费每日计提，投资者不单独收到账单，但份额价值已扣除。",
+      "metadata": {
+        "keywords": [
+          "计提",
+          "价格"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "销售平台打折后费率怎么算哦？",
+      "body": "渠道折扣不改变基金合同费率，仅影响申购费；以平台展示为准哟。",
+      "metadata": {
+        "keywords": [
+          "折扣",
+          "申购",
+          "申购咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "销售平台打折后收费比例如何算？",
+      "body": "仅影响进场费；以平台展示为准。，渠道折扣不改变基金合同成本标准",
+      "metadata": {
+        "keywords": [
+          "折扣",
+          "申购"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有不隐性费用哈？",
+      "body": "法律文件列示主要运作费用；交易佣金等已含在净值运作中，勿夸大恐吓哦。",
+      "metadata": {
+        "keywords": [
+          "费用",
+          "透明",
+          "费用咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有没有隐性开销？",
+      "body": "法律文件列示主要运作收费；交易佣金等已含在价格运作中，勿夸大恐吓。",
+      "metadata": {
+        "keywords": [
+          "成本",
+          "透明"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "FOF 会吗双重收费吧？",
+      "body": "FOF 收取自身管理费，底层子基金亦有其费用；概要须说明。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "双重收费",
+          "FOF咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "FOF 会不会双重收费？",
+      "body": "底层子基金亦有其成本；概要须说明。，FOF 收取自身运营费",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "双重收费"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持有成本大概多少啊？",
+      "body": "可用管理费+托管费年化粗算持有成本；申购赎回费取决于交易行为呢。",
+      "metadata": {
+        "keywords": [
+          "持有成本",
+          "粗算",
+          "粗算咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资成本大概多少？",
+      "body": "可用年管理费+存管费年化粗算投资成本；进场取出成本取决于交易行为。",
+      "metadata": {
+        "keywords": [
+          "持有成本",
+          "粗算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "这只基金稳不稳？适合啥人呢？",
+      "body": "结合类型、回撤与风险等级 R1–R5；货币/存单偏稳，权益/QDII 波动大呢。",
+      "metadata": {
+        "keywords": [
+          "稳不稳",
+          "适合谁",
+          "适合谁咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "这只基金稳不稳？适合什么人？",
+      "body": "权益/QDII 波动大。，结合类型、回撤与亏损可能等级 R1–R5；货币/存单偏稳",
+      "metadata": {
+        "keywords": [
+          "稳不稳",
+          "适合谁"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "主要风险有哪些哦？",
+      "body": "从风险揭示摘 3 条以内：市场、信用、流动性等，依产品类型取舍哟。",
+      "metadata": {
+        "keywords": [
+          "风险揭示",
+          "风险",
+          "风险咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "主要亏损可能有哪些？",
+      "body": "从亏损可能揭示摘 3 条以内：市场、信用、取用方便程度等，依投资标的类型取舍。",
+      "metadata": {
+        "keywords": [
+          "风险揭示",
+          "风险"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "会吗亏光本金呢？",
+      "body": "不承诺保本；说明类型典型波动与最大回撤，避免绝对化表述。",
+      "metadata": {
+        "keywords": [
+          "本金",
+          "亏损",
+          "亏损咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "会不会亏光本金？",
+      "body": "不承诺保本；说明类型典型波动与最大回撤，避免绝对化表述。",
+      "metadata": {
+        "keywords": [
+          "本金",
+          "亏损"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "风险等级 R 几代表什么呢？",
+      "body": "R1–R5 为销售机构评定参考，不等于不会下跌；须配风险揭示原文哟。",
+      "metadata": {
+        "keywords": [
+          "R1",
+          "R2",
+          "风险等级",
+          "R2咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "不确定性等级 R 几代表什么？",
+      "body": "不等于不会下跌；须配亏损可能揭示原文。，R1–R5 为销售机构评定参考",
+      "metadata": {
+        "keywords": [
+          "R1",
+          "R2",
+          "风险等级"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "QDII 有哪些额外风险吧？",
+      "body": "其实啊，汇率、境外市场、时差、额度与换汇规则；is_qdii 为真时必写。",
+      "metadata": {
+        "keywords": [
+          "QDII",
+          "汇率",
+          "QDII咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "QDII 有哪些额外不确定性？",
+      "body": "汇率、境外市场、时差、额度与换汇规则；is_qdii 为真时必写。",
+      "metadata": {
+        "keywords": [
+          "QDII",
+          "汇率"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "行业主题基金会更危险吗哦？",
+      "body": "其实啊，赛道集中导致波动可能高于宽基；看重仓与行业配置集中度哦。",
+      "metadata": {
+        "keywords": [
+          "行业",
+          "主题",
+          "主题咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "行业主题基金会更危险是否？",
+      "body": "赛道集中导致波动可能高于宽基；看重仓与行业组合构建集中度。",
+      "metadata": {
+        "keywords": [
+          "行业",
+          "主题"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "债券基金会血亏吗呀？",
+      "body": "其实啊，纯债一般波动小于权益，但信用债仍有违约与利率风险。",
+      "metadata": {
+        "keywords": [
+          "债券",
+          "信用风险",
+          "信用风险咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "债券基金会血亏是否？",
+      "body": "纯债一般波动小于权益，同时，但信用债仍有违约与利率亏损可能。",
+      "metadata": {
+        "keywords": [
+          "债券",
+          "信用风险"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "迷你基金有啥风险呀？",
+      "body": "规模过小可能清盘或流动性差；有数据则引用季报规模哦。",
+      "metadata": {
+        "keywords": [
+          "清盘",
+          "规模",
+          "规模咋算",
+          "靠不靠谱"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "迷你基金的亏损可能？有哪些",
+      "body": "规模过小可能清盘或取用方便程度差；有数据则引用季报规模。",
+      "metadata": {
+        "keywords": [
+          "清盘",
+          "规模"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "杠杆或分级产品风险啊？",
+      "body": "特殊结构产品须按合同说明杠杆机制；普通公募通常无杠杆呢。",
+      "metadata": {
+        "keywords": [
+          "杠杆",
+          "杠杆咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "杠杆或分级理财产品不确定性？",
+      "body": "特殊结构投资标的须按合同说明杠杆机制；普通公募通常无杠杆。",
+      "metadata": {
+        "keywords": [
+          "杠杆"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "政策变化会影响吗呀？",
+      "body": "监管、行业政策可能影响持仓；可 L3 补充但硬事实仍以 L1 为准哈。",
+      "metadata": {
+        "keywords": [
+          "政策",
+          "监管",
+          "监管咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "政策变化会影响是否？",
+      "body": "监管、行业政策可能影响投资组合；可 L3 补充但硬事实仍以 L1 为准。",
+      "metadata": {
+        "keywords": [
+          "政策",
+          "监管"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资范围是啥哈？",
+      "body": "界定可投股票/债券/存单/基金等；摘 3 条要点，勿贴全文。",
+      "metadata": {
+        "keywords": [
+          "投资范围",
+          "投资范围咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资范围是什么？",
+      "body": "勿贴全文。，界定可投股票/债券/存单/基金等；摘 3 条要点",
+      "metadata": {
+        "keywords": [
+          "投资范围"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资策略咋运作吧？",
+      "body": "说明主动选股、指数复制、久期策略等；与产品类型一致。",
+      "metadata": {
+        "keywords": [
+          "投资策略",
+          "投资策略咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资投资思路如何运作？",
+      "body": "说明主动选股、指数复制、久期方案等；与投资标的类型一致。",
+      "metadata": {
+        "keywords": [
+          "投资策略"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资目标是啥吧？",
+      "body": "来自概要首段；与业绩比较基准、类型相互印证哦。",
+      "metadata": {
+        "keywords": [
+          "投资目标",
+          "投资目标咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资目标是什么？",
+      "body": "来自概要首段；与业绩回报比较基准、类型相互印证。",
+      "metadata": {
+        "keywords": [
+          "投资目标"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能买港股/美股吗吧？",
+      "body": "其实啊，qDII/互认基金看合同境外范围；纯 A 股基金不行哟。",
+      "metadata": {
+        "keywords": [
+          "港股",
+          "美股",
+          "境外",
+          "境外咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能买港股/美股是否？",
+      "body": "QDII/互认基金看合同境外范围；纯 A 股基金不行。",
+      "metadata": {
+        "keywords": [
+          "港股",
+          "美股",
+          "境外"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能买可转债吗吧？",
+      "body": "其实啊，二级债/偏债混合可能含转债；纯债/货币通常不含哦。",
+      "metadata": {
+        "keywords": [
+          "可转债",
+          "可转债咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能买可转债是否？",
+      "body": "二级债/偏债混合可能含转债；纯债/货币通常不含。",
+      "metadata": {
+        "keywords": [
+          "可转债"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "股票仓位上下限是多少哦？",
+      "body": "混合基金合同常有 60%–95% 等区间；以概要为准。",
+      "metadata": {
+        "keywords": [
+          "股票仓位",
+          "混合",
+          "股票仓位咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "股票仓位上下限大概多少？",
+      "body": "混合基金合同常有 60%–95% 等区间；以概要为准。",
+      "metadata": {
+        "keywords": [
+          "股票仓位",
+          "混合"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否投资 ST 股票哈？",
+      "body": "其实啊，一般禁止或受限；检索投资限制条款。",
+      "metadata": {
+        "keywords": [
+          "ST",
+          "限制",
+          "ST咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否投资 ST 股票？",
+      "body": "一般禁止或受限；检索投资限制条款。",
+      "metadata": {
+        "keywords": [
+          "ST",
+          "限制"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "业绩比较基准是什么呢？",
+      "body": "其实啊，用于衡量相对表现；须与指数/策略匹配哈。",
+      "metadata": {
+        "keywords": [
+          "业绩比较基准",
+          "业绩比较基准咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "表现比较基准是什么？",
+      "body": "用于衡量相对表现；须与指数/方案匹配。",
+      "metadata": {
+        "keywords": [
+          "业绩比较基准"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "指数增强和完全复制有何不同呀？",
+      "body": "增强型允许主动偏离；须讨论跟踪误差与超额。",
+      "metadata": {
+        "keywords": [
+          "增强指数",
+          "指数",
+          "指数咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "指数增强和完全复制有何不同？",
+      "body": "增强型允许主动偏离；须讨论跟踪误差与超额。",
+      "metadata": {
+        "keywords": [
+          "增强指数",
+          "指数"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "FOF 怎么选子基金呀？",
+      "body": "看 FOF 合同与季报前十子基金；说明双重收费与策略哈。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "子基金",
+          "子基金咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "FOF 如何选子基金？",
+      "body": "看 FOF 合同与季报前十子基金；说明双重收费与方案。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "子基金"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "近一年收益怎么样哦？",
+      "body": "用 L0 return_1y 并注明 as_of_trade_date；强调历史不代表未来哦。",
+      "metadata": {
+        "keywords": [
+          "近一年",
+          "收益",
+          "收益咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "近一年收入如何样？",
+      "body": "用 L0 return_1y 并注明 as_of_trade_date；强调历史不代表未来。",
+      "metadata": {
+        "keywords": [
+          "近一年",
+          "收入"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "最大回撤有多大哦？",
+      "body": "用 L0 max_drawdown_1y 或报告区间；解释动态回撤含义哦。",
+      "metadata": {
+        "keywords": [
+          "最大回撤",
+          "回撤",
+          "最大回撤咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "最大回撤有多大？",
+      "body": "用 L0 max_drawdown_1y 或报告区间；解释动态回撤含义。",
+      "metadata": {
+        "keywords": [
+          "最大回撤",
+          "回撤"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和业绩基准比如何哦？",
+      "body": "比较区间超额或跟踪偏离；数据口径须一致哈。",
+      "metadata": {
+        "keywords": [
+          "基准",
+          "超额",
+          "基准咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和业绩回报基准比怎么？",
+      "body": "比较区间超额或跟踪偏离；数据口径须一致。",
+      "metadata": {
+        "keywords": [
+          "基准",
+          "超额"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "为什么跑输/跑赢基准哦？",
+      "body": "主动型看选股；指数型看费用与跟踪误差；给 1–2 条合理解释哦。",
+      "metadata": {
+        "keywords": [
+          "跑输",
+          "跑赢",
+          "跑赢咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "为什么跑输/跑赢基准？",
+      "body": "主动型看选股；指数型看收费与跟踪误差；给 1–2 条合理解释。",
+      "metadata": {
+        "keywords": [
+          "跑输",
+          "跑赢"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "成立以来表现如何呀？",
+      "body": "可用季报多区间表；避免过长数字堆砌哦。",
+      "metadata": {
+        "keywords": [
+          "成立以来",
+          "成立以来咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "成立以来表现怎么？",
+      "body": "可用季报多区间表；避免过长数字堆砌。",
+      "metadata": {
+        "keywords": [
+          "成立以来"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "波动大不大啊？",
+      "body": "其实啊，结合回撤与类型；可引用六维雷达「波动」轴为相对参考呢。",
+      "metadata": {
+        "keywords": [
+          "波动",
+          "波动咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "波动大不大？",
+      "body": "结合回撤与类型；可引用六维雷达「波动」轴为相对参考。",
+      "metadata": {
+        "keywords": [
+          "波动"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "同类排名咋看呢？",
+      "body": "第三方排名作参考，非官方评级；可不写具体名次以免过时哟。",
+      "metadata": {
+        "keywords": [
+          "排名",
+          "同类",
+          "同类咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "同类排名如何看？",
+      "body": "非官方评级；可不写具体名次以免过时。，第三方排名作参考",
+      "metadata": {
+        "keywords": [
+          "排名",
+          "同类"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "净值为什么突然下跌吧？",
+      "body": "其实啊，市场回调、分红除权、重仓行业下跌等；先查 L0 与公告哟。",
+      "metadata": {
+        "keywords": [
+          "净值",
+          "下跌",
+          "下跌咋算",
+          "靠不靠谱"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "单位净值为什么突然下跌？",
+      "body": "市场回调、现金分红除权、重仓行业下跌等；先查 L0 与公告。",
+      "metadata": {
+        "keywords": [
+          "份额价值",
+          "下跌"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "夏普比率/风险收益比吧？",
+      "body": "若报告六维提及，说明为示意换算分，非承诺。",
+      "metadata": {
+        "keywords": [
+          "夏普",
+          "六维",
+          "六维咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "夏普比率/不确定性回报比？",
+      "body": "若报告六维提及，非承诺。，说明为示意换算分",
+      "metadata": {
+        "keywords": [
+          "夏普",
+          "六维"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "牛市/熊市表现差异呢？",
+      "body": "其实啊，结合历史区间描述；无数据则定性说明类型特征哈。",
+      "metadata": {
+        "keywords": [
+          "牛市",
+          "熊市",
+          "熊市咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "牛市/熊市表现差异？",
+      "body": "结合历史区间描述；无数据则定性说明类型特征。",
+      "metadata": {
+        "keywords": [
+          "牛市",
+          "熊市"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "赎回多久到账呢？",
+      "body": "开放式 T 日申请 T+N 确认；QDII 更慢。见概要申购赎回规则哦。",
+      "metadata": {
+        "keywords": [
+          "赎回",
+          "到账",
+          "到账咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "变现多久到账？",
+      "body": "开放式 T 日申请 T+N 确认；QDII 更慢。见概要投资清仓规则。",
+      "metadata": {
+        "keywords": [
+          "赎回",
+          "到账"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有吗最短持有期哦？",
+      "body": "持有期产品未满期不可赎回；存单 7 天持有等须明确哟。",
+      "metadata": {
+        "keywords": [
+          "持有期",
+          "7天",
+          "持有期咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有没有最短投资期？",
+      "body": "拿着期投资标的未满期不可变现；存单 7 天持有等须明确。",
+      "metadata": {
+        "keywords": [
+          "持有期",
+          "7天"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "封闭期能卖吗吧？",
+      "body": "封闭/定开产品仅在开放期赎回；检索运作方式。",
+      "metadata": {
+        "keywords": [
+          "封闭期",
+          "封闭期咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "封闭期能卖是否？",
+      "body": "封闭/定开基金产品仅在开放期清仓；检索运作方式。",
+      "metadata": {
+        "keywords": [
+          "封闭期"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "节假日能交易吗呢？",
+      "body": "其实啊，按开放日与交易所日历；QDII 另有时差哦。",
+      "metadata": {
+        "keywords": [
+          "节假日",
+          "开放日",
+          "开放日咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "节假日能交易是否？",
+      "body": "按开放日与交易所日历；QDII 另有时差。",
+      "metadata": {
+        "keywords": [
+          "节假日",
+          "开放日"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "大额赎回会受影响吗啊？",
+      "body": "其实啊，巨额赎回条款见合同；一般散户影响小，可略写哈。",
+      "metadata": {
+        "keywords": [
+          "巨额赎回",
+          "巨额赎回咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "大额取回会受影响是否？",
+      "body": "巨额清仓条款见合同；一般散户影响小，可略写。",
+      "metadata": {
+        "keywords": [
+          "巨额赎回"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "转换到其他基金可以吗呀？",
+      "body": "其实啊，同公司可能支持转换；费率以销售机构为准呢。",
+      "metadata": {
+        "keywords": [
+          "转换",
+          "转换咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "转换到其他基金可以是否？",
+      "body": "同公司可能支持转换；收费标准以销售机构为准。",
+      "metadata": {
+        "keywords": [
+          "转换"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "最低申购金额多少呢？",
+      "body": "渠道规则为主；法律文件通常不固定哦。",
+      "metadata": {
+        "keywords": [
+          "起购",
+          "最低",
+          "最低咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "最低投资金额多少？",
+      "body": "渠道规则为主；法律文件通常不固定。",
+      "metadata": {
+        "keywords": [
+          "起购",
+          "最低"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "流动性比货币差多少吧？",
+      "body": "其实啊，权益/混合赎回慢于货币；说明 T+N 与波动权衡呢。",
+      "metadata": {
+        "keywords": [
+          "流动性",
+          "货币",
+          "货币咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "取用方便程度比货币差多少？",
+      "body": "权益/混合取回慢于货币；说明 T+N 与波动权衡。",
+      "metadata": {
+        "keywords": [
+          "流动性",
+          "货币"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定开基金啥时候开放哦？",
+      "body": "其实啊，见产品开放公告；定开须按开放期操作。",
+      "metadata": {
+        "keywords": [
+          "定开",
+          "开放",
+          "定开咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "other"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定开基金什么时候开放？",
+      "body": "见理财产品开放公告；定开须按开放期操作。",
+      "metadata": {
+        "keywords": [
+          "定开",
+          "开放"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "other"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "暂停申购赎回是咋回事呀？",
+      "body": "以最新公告为准；可 L3 补充呢。",
+      "metadata": {
+        "keywords": [
+          "暂停申购",
+          "暂停申购咋算",
+          "靠不靠谱"
+        ],
+        "suggested_doc_types": [
+          "other"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "暂停进场清仓是如何回事？",
+      "body": "以最新公告为准；可 L3 补充。",
+      "metadata": {
+        "keywords": [
+          "暂停申购"
+        ],
+        "suggested_doc_types": [
+          "other"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "分红多不多哦？",
+      "body": "看历史分红与合同政策；货币型每日结转呢。",
+      "metadata": {
+        "keywords": [
+          "分红",
+          "分红咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "现金分红多不多？",
+      "body": "看历史现金分红与合同政策；货币型每日结转。",
+      "metadata": {
+        "keywords": [
+          "红利"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "现金分红还是红利再投资呢？",
+      "body": "两种方式可选，默认以销售平台设置为准呢。",
+      "metadata": {
+        "keywords": [
+          "分红方式",
+          "分红方式咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "现金分配收益还是红利再投资？",
+      "body": "默认以销售平台设置为准。，两种方式可选",
+      "metadata": {
+        "keywords": [
+          "分红方式"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "分红后净值为啥跌呢？",
+      "body": "除息导致净值跳降，资产总量不变。",
+      "metadata": {
+        "keywords": [
+          "除息",
+          "分红",
+          "除息咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "分配收益后价格为什么跌？",
+      "body": "资产总量不变。，除息导致份额价值跳降",
+      "metadata": {
+        "keywords": [
+          "除息",
+          "分红"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定期支付型产品咋分红哈？",
+      "body": "平衡/双息等特殊机制按合同；勿与普通分红混淆呢。",
+      "metadata": {
+        "keywords": [
+          "定期支付",
+          "定期支付咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定期支付型投资标的如何派息？",
+      "body": "平衡/双息等特殊机制按合同；勿与普通红利混淆。",
+      "metadata": {
+        "keywords": [
+          "定期支付"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有不分红记录哈？",
+      "body": "用 L0 dividend_history 或年报；无则写「暂无公开记录」呢。",
+      "metadata": {
+        "keywords": [
+          "分红记录",
+          "分红记录咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "有没有分配收益记录？",
+      "body": "用 L0 dividend_history 或年报；无则写「暂无公开记录」。",
+      "metadata": {
+        "keywords": [
+          "分红记录"
+        ],
+        "suggested_doc_types": [
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金经理是谁哈？",
+      "body": "概要/季报「基金经理」；任职变更须提示呢。",
+      "metadata": {
+        "keywords": [
+          "基金经理",
+          "基金经理咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资管理人是谁？",
+      "body": "概要/季报「操盘人」；任职变更须提示。",
+      "metadata": {
+        "keywords": [
+          "基金经理"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "经理任职期间表现呢？",
+      "body": "其实啊，仅作参考，注明任职区间；避免夸大哟。",
+      "metadata": {
+        "keywords": [
+          "任职",
+          "经理",
+          "经理咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "操盘手任职期间表现？",
+      "body": "仅作参考，注明任职区间；避免夸大。",
+      "metadata": {
+        "keywords": [
+          "任职",
+          "管理人"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "会吗换基金经理呢？",
+      "body": "季报披露变更；主动型须关注风格延续哈。",
+      "metadata": {
+        "keywords": [
+          "变更",
+          "经理",
+          "经理咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "会不会换基金管理人？",
+      "body": "季报公开信息变更；主动型须关注风格延续。",
+      "metadata": {
+        "keywords": [
+          "变更",
+          "投资负责人"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金管理公司可靠吗呀？",
+      "body": "陈述基金公司名称与托管人；不做主观评级。",
+      "metadata": {
+        "keywords": [
+          "管理人",
+          "基金公司",
+          "管理人咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金管理公司可靠是否？",
+      "body": "陈述基金公司名称与托管人；不做主观评级。",
+      "metadata": {
+        "keywords": [
+          "管理人",
+          "基金公司"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金托管人是谁哦？",
+      "body": "托管人负责资产保管；见概要产品概况表哈。",
+      "metadata": {
+        "keywords": [
+          "托管人",
+          "托管人咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金托管人是谁？",
+      "body": "托管人负责资产保管；见概要投资标的概况表。",
+      "metadata": {
+        "keywords": [
+          "托管人"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "前十大重仓是啥呀？",
+      "body": "其实啊，来自最近季报 L0/L1；注明 as_of 滞后哟。",
+      "metadata": {
+        "keywords": [
+          "重仓",
+          "前十",
+          "重仓咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "前十大重仓是什么？",
+      "body": "来自最近季报 L0/L1；注明 as_of 滞后。",
+      "metadata": {
+        "keywords": [
+          "重仓",
+          "前十"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "行业配置集中吗呀？",
+      "body": "其实啊，季报行业/券种表 + L0；主动权益看单一行业占比。",
+      "metadata": {
+        "keywords": [
+          "行业配置",
+          "行业配置咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "行业组合构建集中是否？",
+      "body": "季报行业/券种表 + L0；主动权益看单一行业占比。",
+      "metadata": {
+        "keywords": [
+          "行业配置"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "股票还是债券为主呢？",
+      "body": "asset_allocation 饼图与文字一致哟。",
+      "metadata": {
+        "keywords": [
+          "股债",
+          "资产配置",
+          "股债咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "股票还是债券为主？",
+      "body": "asset_allocation 饼图与文字一致。",
+      "metadata": {
+        "keywords": [
+          "股债",
+          "资产配置"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "存单/债券前十大有哪些呢？",
+      "body": "固收/存单型看券种明细，勿写「重仓股」哟。",
+      "metadata": {
+        "keywords": [
+          "存单",
+          "债券",
+          "债券咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "存单/债券前十大有哪些？",
+      "body": "固收/存单型看券种明细，另外，勿写「重仓股」。",
+      "metadata": {
+        "keywords": [
+          "存单",
+          "债券"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "子基金前十大（FOF）吧？",
+      "body": "FOF 看前十子基金权重哦。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "子基金",
+          "FOF咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "子基金前十大（FOF）？",
+      "body": "FOF 看前十子基金权重。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "子基金"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "海外重仓股有哪些呢？",
+      "body": "QDII/互认看季报境外持仓。",
+      "metadata": {
+        "keywords": [
+          "海外",
+          "QDII",
+          "QDII咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "海外重仓股有哪些？",
+      "body": "QDII/互认看季报境外标的。",
+      "metadata": {
+        "keywords": [
+          "海外",
+          "QDII"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "指数成分股复制程度哦？",
+      "body": "其实啊，指数型说明抽样/完全复制与跟踪误差哈。",
+      "metadata": {
+        "keywords": [
+          "成分股",
+          "指数",
+          "成分股咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "指数成分股复制程度？",
+      "body": "指数型说明抽样/完全复制与跟踪误差。",
+      "metadata": {
+        "keywords": [
+          "成分股",
+          "指数"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "换手率高低说明什么啊？",
+      "body": "高换手可能增加成本；数据来自年报/半年报哈。",
+      "metadata": {
+        "keywords": [
+          "换手率",
+          "换手率咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "换手率高低说明什么？",
+      "body": "高换手可能增加成本；数据来自年报/半年报。",
+      "metadata": {
+        "keywords": [
+          "换手率"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "持有人结构如何呀？",
+      "body": "个人/机构占比来自 holder_structure哈。",
+      "metadata": {
+        "keywords": [
+          "持有人",
+          "持有人咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "拿着人结构怎么？",
+      "body": "个人/机构占比来自 holder_structure。",
+      "metadata": {
+        "keywords": [
+          "持有人"
+        ],
+        "suggested_doc_types": [
+          "semiannual_report",
+          "annual_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "仓位最近有吗大变化呀？",
+      "body": "其实啊，对比两期季报资产组合；无数据则略呢。",
+      "metadata": {
+        "keywords": [
+          "仓位变化",
+          "仓位变化咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "仓位最近有没有大变化？",
+      "body": "对比两期季报资产组合；无数据则略。",
+      "metadata": {
+        "keywords": [
+          "仓位变化"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是被动指数还是主动管理啊？",
+      "body": "其实啊，决定报告话术与第三章图表；指数看跟踪，主动看选股哟。",
+      "metadata": {
+        "keywords": [
+          "指数",
+          "主动",
+          "主动咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是被动指数还是主动管理？",
+      "body": "主动看选股。，此外，决定报告话术与第三章图表；指数看跟踪",
+      "metadata": {
+        "keywords": [
+          "指数",
+          "主动"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和 ETF 联接有啥区别吧？",
+      "body": "联接基金主要投资目标 ETF；见概要投资范围哦。",
+      "metadata": {
+        "keywords": [
+          "ETF联接",
+          "ETF联接咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和 ETF 联接的区别？有哪些",
+      "body": "联接基金主要投资目标 ETF；见概要投资范围。",
+      "metadata": {
+        "keywords": [
+          "ETF联接"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "同业存单指数适合什么场景啊？",
+      "body": "其实啊，短久期现金管理增强；7 天持有等限制须写清哦。",
+      "metadata": {
+        "keywords": [
+          "同业存单",
+          "同业存单咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "同业存单指数适合什么场景？",
+      "body": "短久期现金管理增强；7 天持仓等限制须写清。",
+      "metadata": {
+        "keywords": [
+          "同业存单"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "货币型和短债怎么选吧？",
+      "body": "货币流动性最好；短债收益略高但波动也略大。",
+      "metadata": {
+        "keywords": [
+          "货币",
+          "短债",
+          "货币咋算",
+          "靠不靠谱"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "货币型和短债如何选？",
+      "body": "货币资金灵活性最好；短债回报略高但波动也略大。",
+      "metadata": {
+        "keywords": [
+          "货币",
+          "短债"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "黄金 ETF 联接是做啥的呀？",
+      "body": "其实啊，跟踪黄金价格，对冲通胀；波动来自金价哦。",
+      "metadata": {
+        "keywords": [
+          "黄金",
+          "商品",
+          "黄金咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "黄金 ETF 联接是做什么的？",
+      "body": "跟踪黄金价格，对冲通胀；波动来自金价。",
+      "metadata": {
+        "keywords": [
+          "黄金",
+          "商品"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "QDII 额度受限怎么办呀？",
+      "body": "可能影响申购；以公告为准。",
+      "metadata": {
+        "keywords": [
+          "QDII",
+          "额度",
+          "QDII咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "QDII 额度受限如何办？",
+      "body": "可能影响买入；以公告为准。",
+      "metadata": {
+        "keywords": [
+          "QDII",
+          "额度"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "养老 Y 份额有何不同吧？",
+      "body": "个人养老金份额可能有费率/锁定差异呢。",
+      "metadata": {
+        "keywords": [
+          "养老Y",
+          "养老Y咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "养老 Y 份额有何不同？",
+      "body": "个人养老金份额可能有收费比例/锁定差异。",
+      "metadata": {
+        "keywords": [
+          "养老Y"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 LOF/ETF哦？",
+      "body": "上市交易规则不同；见产品形态哦。",
+      "metadata": {
+        "keywords": [
+          "LOF",
+          "ETF",
+          "ETF咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 LOF/ETF？",
+      "body": "上市交易规则不同；见投资标的形态。",
+      "metadata": {
+        "keywords": [
+          "LOF",
+          "ETF"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 FOF啊？",
+      "body": "FOF 持有其他基金，看前十子基金与费用。",
+      "metadata": {
+        "keywords": [
+          "FOF",
+          "FOF咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 FOF？",
+      "body": "FOF 拿着其他基金，看前十子基金与成本。",
+      "metadata": {
+        "keywords": [
+          "FOF"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 REITs啊？",
+      "body": "若投资 REITs 须单独说明流动性与分红特征。",
+      "metadata": {
+        "keywords": [
+          "REITs",
+          "REITs咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否 REITs？",
+      "body": "若投资 REITs 须单独说明取用方便程度与分配收益特征。",
+      "metadata": {
+        "keywords": [
+          "REITs"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "适合定投吗呀？",
+      "body": "其实啊，长期权益/QDII 常见；不能消除波动呢。",
+      "metadata": {
+        "keywords": [
+          "定投",
+          "定投咋算",
+          "靠不靠谱"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "适合定投是否？",
+      "body": "长期权益/QDII 常见；不能消除波动。",
+      "metadata": {
+        "keywords": [
+          "定投"
+        ],
+        "suggested_doc_types": [
+          "prospectus",
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "适合当底仓吗哈？",
+      "body": "低波固收/货币/存单更适合；高波权益控制比例。",
+      "metadata": {
+        "keywords": [
+          "底仓",
+          "底仓咋算"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "适合当底仓是否？",
+      "body": "低波固收/货币/存单更适合；高波权益控制比例。",
+      "metadata": {
+        "keywords": [
+          "底仓"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和自家其他基金怎么配吧？",
+      "body": "仅作类型对照，不构成推荐名单。",
+      "metadata": {
+        "keywords": [
+          "配置",
+          "组合",
+          "配置咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和自家其他基金如何配？",
+      "body": "仅作类型对照，不构成推荐名单。",
+      "metadata": {
+        "keywords": [
+          "投资安排",
+          "组合"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能替代银行存款吗啊？",
+      "body": "基金非存款，不保本保收益；货币/存单亦不等同活期哟。",
+      "metadata": {
+        "keywords": [
+          "存款",
+          "替代",
+          "替代咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "能替代银行存款是否？",
+      "body": "基金非存款，不保本保盈利；货币/存单亦不等同活期。",
+      "metadata": {
+        "keywords": [
+          "存款",
+          "替代"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "一次买还是分批买吧？",
+      "body": "取决于波动承受；不提供买卖建议。",
+      "metadata": {
+        "keywords": [
+          "分批",
+          "一次性",
+          "分批咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "一次买还是分批买？",
+      "body": "取决于波动承受；不提供买卖建议。",
+      "metadata": {
+        "keywords": [
+          "分批",
+          "一次性"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资期限建议多久吧？",
+      "body": "其实啊，权益建议 3 年以上；短债/货币可更短哟。",
+      "metadata": {
+        "keywords": [
+          "期限",
+          "长期",
+          "长期咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "投资期限建议多久？",
+      "body": "权益建议 3 年以上；短债/货币可更短。",
+      "metadata": {
+        "keywords": [
+          "期限",
+          "长期"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和同类基金比优势呀？",
+      "body": "其实啊，对比费率、跟踪误差、回撤、风格；避免排名过时呢。",
+      "metadata": {
+        "keywords": [
+          "同类",
+          "对比",
+          "同类咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "和同类基金比优势？",
+      "body": "对比收费标准、跟踪误差、回撤、风格；避免排名过时。",
+      "metadata": {
+        "keywords": [
+          "同类",
+          "对比"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "海外配置有啥意义呢？",
+      "body": "分散单一市场；QDII 须提示汇率哈。",
+      "metadata": {
+        "keywords": [
+          "海外",
+          "分散",
+          "海外咋算"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "海外组合构建的意义？有哪些",
+      "body": "分散单一市场；QDII 须提示汇率。",
+      "metadata": {
+        "keywords": [
+          "海外",
+          "分散"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "消费/科技/医药赛道差异啊？",
+      "body": "主题基金看行业暴露与经理风格哈。",
+      "metadata": {
+        "keywords": [
+          "赛道",
+          "主题",
+          "主题咋算"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "消费/科技/医药赛道差异？",
+      "body": "主题基金看行业暴露与管理人风格。",
+      "metadata": {
+        "keywords": [
+          "赛道",
+          "主题"
+        ],
+        "suggested_doc_types": [
+          "expert_opinion"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否适合退休理财呀？",
+      "body": "需匹配风险承受与流动性；不提供个人理财建议哈。",
+      "metadata": {
+        "keywords": [
+          "退休",
+          "理财",
+          "退休咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "是否适合退休理财？",
+      "body": "需匹配安全隐患承受与资金灵活性；不提供个人理财建议。",
+      "metadata": {
+        "keywords": [
+          "退休",
+          "理财"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "产品资料概要在哪看哦？",
+      "body": "其实啊，l1 explore prospectus；可 FK-CITE 深链哈。",
+      "metadata": {
+        "keywords": [
+          "产品资料概要",
+          "概要",
+          "概要咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "基金产品资料概要在哪看？",
+      "body": "L1 explore prospectus；可 FK-CITE 深链。",
+      "metadata": {
+        "keywords": [
+          "产品资料概要",
+          "概要"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "招募书和概要有什么区别啊？",
+      "body": "概要简明；招募书完整；报告硬事实优先概要/定期报告。",
+      "metadata": {
+        "keywords": [
+          "招募书",
+          "概要",
+          "招募书咋算",
+          "怎么搞"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "招募书和概要的区别？有哪些",
+      "body": "概要简明；招募书完整；报告硬事实优先概要/定期报告。",
+      "metadata": {
+        "keywords": [
+          "招募书",
+          "概要"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "季报、半年报、年报何时披露呀？",
+      "body": "季报季度后 15 工作日内等；引用最近一期哈。",
+      "metadata": {
+        "keywords": [
+          "季报",
+          "年报",
+          "季报咋算"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "季报、半年报、年报何时公布？",
+      "body": "季报季度后 15 工作日内等；引用最近一期。",
+      "metadata": {
+        "keywords": [
+          "季报",
+          "年报"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "哪里查最新公告哦？",
+      "body": "其实啊，基金公司官网/代销平台；L3 作补充呢。",
+      "metadata": {
+        "keywords": [
+          "公告",
+          "公告咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "哪里查最新公告？",
+      "body": "基金公司官网/代销平台；L3 作补充。",
+      "metadata": {
+        "keywords": [
+          "公告"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "解读报告要注意什么哦？",
+      "body": "历史业绩不代表未来；数字以 L0 截止日与 L1 披露为准哟。",
+      "metadata": {
+        "keywords": [
+          "解读",
+          "免责",
+          "解读咋算",
+          "靠不靠谱"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "解读报告要注意什么？",
+      "body": "历史业绩回报不代表未来；数字以 L0 截止日与 L1 公布为准。",
+      "metadata": {
+        "keywords": [
+          "解读",
+          "免责"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "法律文件以哪个为准呀？",
+      "body": "冲突时以基金合同/招募书为准；概要便于快速阅读呢。",
+      "metadata": {
+        "keywords": [
+          "法律文件",
+          "法律文件咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "法律文件以哪个为准？",
+      "body": "冲突时以基金合同/招募书为准；概要便于快速阅读。",
+      "metadata": {
+        "keywords": [
+          "法律文件"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定期报告能当投资建议吗呢？",
+      "body": "报告仅供了解产品，不构成买卖建议哈。",
+      "metadata": {
+        "keywords": [
+          "投资建议",
+          "免责",
+          "免责咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "定期报告能当投资建议是否？",
+      "body": "报告仅供了解理财产品，不构成买卖建议。",
+      "metadata": {
+        "keywords": [
+          "投资建议",
+          "免责"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "如何核对净值日期吧？",
+      "body": "以 L0 as_of_trade_date 与披露一致为准哟。",
+      "metadata": {
+        "keywords": [
+          "净值日期",
+          "L0",
+          "净值日期咋算",
+          "划算不"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "怎么核对份额价值日期？",
+      "body": "以 L0 as_of_trade_date 与公告一致为准。",
+      "metadata": {
+        "keywords": [
+          "净值日期",
+          "L0"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "知识库和联网信息谁优先啊？",
+      "body": "硬事实优先 L1 披露与 L0 行情；联网仅作背景或 enrich 失败兜底哟。",
+      "metadata": {
+        "keywords": [
+          "知识库",
+          "优先级",
+          "知识库咋算"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "知识库和联网信息谁优先？",
+      "body": "硬事实优先 L1 公告与 L0 行情；联网仅作背景或 enrich 失败兜底。",
+      "metadata": {
+        "keywords": [
+          "知识库",
+          "优先级"
+        ],
+        "suggested_doc_types": [
+          "prospectus"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "为啥季报持仓不是实时哈？",
+      "body": "其实啊，定期报告有披露滞后，须向用户说明哦。",
+      "metadata": {
+        "keywords": [
+          "滞后",
+          "季报",
+          "滞后咋算",
+          "麻不麻烦"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    },
+    {
+      "entry_type": "faq",
+      "title": "为什么季报拿着资产不是实时？",
+      "body": "定期报告有公告滞后，另外，须向用户说明。",
+      "metadata": {
+        "keywords": [
+          "滞后",
+          "季报"
+        ],
+        "suggested_doc_types": [
+          "quarterly_report"
+        ],
+        "intent": "generic_fund_faq"
+      }
+    }
+  ]
+}
