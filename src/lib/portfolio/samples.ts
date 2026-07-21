@@ -13,7 +13,7 @@ function loadExamples() {
   if (cached) return cached;
   const p = path.join(
     getProjectRoot(),
-    "requirement/docs/samples/holdings-propose-payload.examples.json",
+    "app-config/samples/holdings-propose-payload.examples.json",
   );
   cached = JSON.parse(fs.readFileSync(p, "utf8")) as typeof cached;
   return cached!;

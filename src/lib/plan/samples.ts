@@ -15,7 +15,7 @@ function loadExamples(): {
   if (cached) return cached;
   const p = path.join(
     getProjectRoot(),
-    "requirement/docs/samples/plan-propose-payload.examples.json",
+    "app-config/samples/plan-propose-payload.examples.json",
   );
   const raw = JSON.parse(fs.readFileSync(p, "utf8")) as {
     plan_allocation: PlanAllocationPayload;

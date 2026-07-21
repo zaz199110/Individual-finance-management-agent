@@ -1,0 +1,58 @@
+# 需求梳理 Tab · workflow_tasks 任务图（对客阶段条）
+# 权威 PRD → requirement/prd/06-profile.md §6.15
+# 落盘 → workflow_tasks（shared §5.11.4 · 一级平铺）
+#
+# ★ 简化为三大阶段 + 报告，对客只展示高层进度
+# 子步骤（basic.verify / basic.wait / basic.save / goal.verify 等）
+# 由场景处理器内部驱动，不暴露给进度条
+
+scene: profile
+decision_ids:
+  - PL-STAGE-PROFILE-01
+
+tasks:
+  # ── Stage 1: 理解对话（由 planner 通用节点处理，不在这里定义）──
+  - task_key: profile.onboarding
+    node_depth: 1
+    label: 理解对话
+    note: 收集需求背景，确认画像使用场景
+
+  # ── Stage 2: 填写基本情况 ──
+  - task_key: profile.basic.form
+    node_depth: 1
+    label: 填写基本情况
+    skill: profile_intake
+    command: profile_parse
+
+  # ── Stage 3: 投资需求梳理（每组场景循环） ──
+  - task_key: profile.goal.form
+    node_depth: 1
+    label: 投资需求梳理
+    skill: goal_constraint_intake
+    command: goal_constraint_parse
+
+  # ── Stage 4: 生成报告 ──
+  - task_key: profile.rpt.draft
+    node_depth: 1
+    label: 生成投资需求报告
+    note: 合并报告（合体版），一次性生成所有目标的联合报告
+
+  - task_key: profile.rpt.draft.gather
+    node_depth: 2
+    parent_task_key: profile.rpt.draft
+    label: 获取需求数据
+
+  - task_key: profile.rpt.draft.compose
+    node_depth: 2
+    parent_task_key: profile.rpt.draft
+    label: 生成各场景报告
+
+  - task_key: profile.rpt.draft.cross
+    node_depth: 2
+    parent_task_key: profile.rpt.draft
+    label: 跨场景综合分析
+
+  - task_key: profile.rpt.draft.merge
+    node_depth: 2
+    parent_task_key: profile.rpt.draft
+    label: 合并校验报告

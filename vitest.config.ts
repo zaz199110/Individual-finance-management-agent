@@ -4,8 +4,7 @@ import path from "node:path";
 export default defineConfig({
   test: {
     environment: "node",
-    include: ["src/**/*.test.ts", "automation/tests/**/*.acceptance.test.ts"],
-    setupFiles: ["automation/tests/setup.ts"],
+    include: ["src/**/*.test.ts"],
     fileParallelism: false,
     sequence: { concurrent: false },
     testTimeout: 120_000,
@@ -15,7 +14,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
       "server-only": path.resolve(
         __dirname,
-        "./automation/tests/stubs/server-only.ts",
+        "./app-config/stubs/server-only.ts",
       ),
     },
   },

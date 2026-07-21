@@ -34,8 +34,6 @@ yarn-error.log*
 # env files
 .env*
 !.env.example
-!requirement/config/env.template
-requirement/config/secrets.env
 
 # runtime data
 /data/runs/
@@ -62,9 +60,6 @@ requirement/config/secrets.env
 /.playwright-mcp/
 /agent/
 /其他/
-
-# skill cache duplicates (canonical source is /skills/)
-/data/skills/
 
 # typescript
 *.tsbuildinfo

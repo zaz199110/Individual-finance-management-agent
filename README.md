@@ -1,209 +1,76 @@
 # 智能投顾助手
 
-> 面向 C 端投资者的 AI 基金理财顾问 —— 在统一的对话界面里，从需求梳理到方案生成、从持仓诊断到基金解读，每一步都有据可查、可确认、可归档。
+> AI 基金理财顾问应用 — Next.js + Supabase + TypeScript
 
-**平台**：仅支持 Windows（见[平台要求](#平台要求)）
+## 环境要求
 
----
+- Node.js 18+（推荐 20+）
+- npm 9+
+- Docker Desktop（仅本地演示模式）
+- Python 3.9+（可选，高级功能需要）
 
-## 产品定位
+## 快速开始
 
-中国公募基金数量超 1 万只，个人投资者面临三个核心困难：
+```bash
+# 1. 复制配置文件
+cp .env.example .env.local
+# 编辑 .env.local 填入你的 API 密钥
 
-| 困难 | 典型表现 | 本产品如何解决 |
-|------|----------|----------------|
-| **不知道买什么** | 有理财目标但不知道如何落地为具体基金组合 | 引导用户梳理家庭目标与现金流，自动生成可解释的配置方案 |
-| **不知道买得对不对** | 持有基金但说不清整体配置是否合理 | 录入持仓后自动汇总分析，生成持仓诊断报告 |
-| **不知道这只基金好不好** | 看到推荐或广告，但缺乏独立判断能力 | 从行情、披露、语义、联网四层逐级深挖，脚注可追溯原文 |
+# 2. 安装依赖
+npm install --legacy-peer-deps
 
-**不是黑盒荐基**：每一步都有结构化存库、草稿校验、用户确认。所有报告（投资规划书、持仓分析、基金解读）均为含图表、脚注的可读 Markdown，发布后可回溯。
+# 3. 启动数据库（本地演示模式，需 Docker）
+npm run supabase:start
 
-> 对照阅读：[完整 PRD 文档](requirement/PRD.md)
+# 4. 同步设置
+npm run supabase:sync-settings
 
----
+# 5. 初始化数据
+npm run data:init
 
-## 产品介绍
-
-| 材料 | 说明 |
-|------|------|
-| [产品介绍 PPT](assets/intro/个人理财agent-产品介绍.pptx) | 产品定位、核心功能、技术架构演示文稿 |
-| [产品介绍视频](assets/intro/个人理财agent-产品介绍.mp4) | 完整产品演示视频（含功能流程讲解） |
-
----
-
-## 产品亮点
-
-1. **一个界面，五个场景**
-   自由问答、需求梳理、资产配置、持仓分析、基金解读统一在侧栏会话 + 底栏 Tab 中切换，无需在不同工具间跳转。
-
-2. **报告即交付物**
-   四类报告经历「草稿 → 核验 → 确认 → 发布归档」完整流程，含 ECharts 图表，不是一段聊天回复，而是一份可导出的正式文档。
-
-3. **可审计的基金解读**
-   独创四层瀑布：L0 行情数据 → L1 招募书披露 → L2 语义检索 → L3 联网验证。每一处结论带脚注（FK-CITE），可点击「查看原文」跳转来源。
-
-4. **阶段式交互，拒绝打字机焦虑**
-   不逐字吐出响应。用户先看到「当前阶段 × 正在做什么」，再一次性看到完整答复或确认卡片，心理等候感大幅降低。
-
-5. **自带知识库，开箱即用**
-   内置基金招募书 Markdown 知识库，首次启动自动复制演示数据，无需接入外部数据源即可体验完整解读流程。
-
-6. **定时持仓分析，无需手动触发**
-   设置定时后，后台自动执行分析；核验通过直接推送报告，用户无需再次确权。
-
----
-
-## 产品功能
-
-| # | 功能 | 用户视角 |
-|---|------|----------|
-| 1 | **需求梳理** | 回答几个问题，系统自动生成家庭投资需求报告，确认后归档到「我的报告」 |
-| 2 | **资产配置** | 基于需求报告，两步生成方案：先定大类资产比例，再选具体基金，输出规划书 |
-| 3 | **持仓诊断** | 录入现有持仓，系统自动汇总分析，生成持仓诊断报告 |
-| 4 | **基金解读** | 输入基金代码，获得从行情到深层语义的多层次分析；数据充分时自动生成图表 |
-| 5 | **报告与定时** | 「我的报告」集中展示已发布报告；可设定时任务自动跑持仓分析 |
-| 6 | **带图聊天** | 问答场景支持截图提问（需配合视觉模型） |
-
----
-
-## 平台要求
-
-> **本产品目前仅支持 Windows 操作系统。**
-
-| 依赖 | 最低版本 | 说明 |
-|------|----------|------|
-| **Windows** | 10 / 11 | 唯一支持的操作系统 |
-| **Node.js** | 18+（推荐 20+） | 运行环境 |
-| **npm** | 9+ | 随 Node.js 一并安装 |
-| **Docker Desktop** | 最新稳定版 | 仅路径 A（本地演示）需要，路径 B 不需要 |
-| **Python** | 3.9+ | 路径 A 可选；基金 PDF 转换、语义索引等高级功能需要 |
-
----
-
-## 快速部署
-
-> ⚠️ **安全提醒**：切勿将 `.env.local` 中的 API 密钥提交到 Git。本项目已配置 `.gitignore` 排除所有 `.env*` 文件。使用 `.env.example` 作为模板，填入你自己的密钥。
-
-### 一键部署（推荐）
-
-```powershell
-powershell -ExecutionPolicy Bypass -File setup.ps1
+# 6. 启动开发服务器
+npm run dev
 ```
 
-脚本会自动：检查环境 → 创建 `.env` 模板 → 安装依赖 → 交互选择部署模式 → 初始化数据库。
+应用启动后访问 http://localhost:3000
 
-首次运行时脚本会退出提示你编辑 `.env.local`，填入 API 密钥后重新运行即可。
+## 部署模式
 
-### 两种部署模式
+| 模式 | 说明 | 需要 Docker |
+|------|------|-------------|
+| 本地演示 | 本机 Supabase 容器 | 是 |
+| 云端数据库 | 使用已有 Supabase 项目 | 否 |
 
-一套代码，由 `.env.local` 中的 `SUPABASE_URL` 自动切换。
+在 `.env.local` 中设置 `SUPABASE_URL` 切换模式：
+- 本地演示：`SUPABASE_URL=http://127.0.0.1:54321`
+- 云端：`SUPABASE_URL=https://your-project.supabase.co`
 
-| | 路径 A · 本地演示（推荐） | 路径 B · 自有云数据库 |
-|---|---------------------------|----------------------|
-| **适用场景** | 本机演示、产品验收 | 已有 Supabase 云端项目 |
-| **需要 Docker** | ✅ 是 | ❌ 否 |
-| **数据库在哪** | 本机 Docker 容器 | 你的 Supabase 云端实例 |
-| **上手时间** | 约 5-10 分钟 | 约 3-5 分钟 |
+## 技术栈
 
-### 手动部署 · 路径 A（本地演示）
+- **框架**: Next.js 15 + React 19
+- **数据库**: Supabase (PostgreSQL)
+- **样式**: Tailwind CSS 4
+- **图表**: ECharts
+- **测试**: Vitest + Playwright
+- **类型**: TypeScript 5.8
 
-1. 复制配置：`copy .env.example .env.local` → 填入 DeepSeek API Key
-2. 安装依赖：`npm install --legacy-peer-deps`
-3. 启动数据库：`npm run supabase:start`（需 Docker Desktop 运行中）
-4. 同步设置：`npm run supabase:sync-settings`
-5. 初始化数据：`npm run data:init`
-6. 启动应用：`npm run dev:clean` → 打开 `http://localhost:3000`
-
-### 手动部署 · 路径 B（自有云数据库）
-
-1. 复制配置：`copy .env.example .env.local` → 填入 Supabase 项目凭证
-2. 安装依赖：`npm install --legacy-peer-deps`
-3. 初始化数据：`npm run data:init`
-4. 应用迁移：`npm run data:migrate`
-5. 启动应用：`npm run dev` → 设置页完成数据库连接检测
-
-> 环境变量完整说明见 [.env.example](.env.example)
-
----
-
-## 依赖清单
-
-### 运行时依赖
-
-| 包 | 用途 |
-|----|------|
-| `next` ^15.2.4 | React 全栈框架 |
-| `react` / `react-dom` ^19.0.0 | UI 框架 |
-| `@supabase/supabase-js` ^2.49.1 | 数据库客户端 |
-| `echarts` ^5.6.0 | 报告图表渲染 |
-| `mermaid` ^11.15.0 | 流程图 / 图表渲染 |
-| `js-yaml` ^4.1.0 | 配置文件解析 |
-| `mammoth` ^1.12.0 | Word 文档转 Markdown |
-| `uuid` ^11.1.0 | 唯一 ID 生成 |
-| `xlsx` ^0.18.5 | Excel 文件读写 |
-
-### 开发 & 测试依赖
-
-| 包 | 用途 |
-|----|------|
-| `typescript` ^5.8.2 | 静态类型检查 |
-| `tailwindcss` ^4.0.14 | 样式框架 |
-| `@playwright/test` ^1.51.1 | 端到端测试 |
-| `vitest` ^3.0.8 | 单元测试 |
-| `@mermaid-js/mermaid-cli` ^11.15.0 | Mermaid 命令行渲染 |
-| `tsx` ^4.22.4 | TypeScript 脚本执行器 |
-| `hyperframes` ^0.6.119 | 视频合成（辅助功能） |
-| `eslint` / `eslint-config-next` ^9.22.0 | 代码规范检查 |
-
-### Python 依赖（可选，路径 A 高级功能）
-
-| 包 | 用途 |
-|----|------|
-| `PyMuPDF` ≥ 1.24.0 | PDF 转 Markdown |
-| `psycopg[binary]` ≥ 3.1.0 | PostgreSQL 直连 |
-| `tushare` ≥ 1.4.0 | A 股 / 基金行情数据 |
-| `akshare` ≥ 1.14.0 | 开放金融数据接口 |
-| `pandas` ≥ 2.0.0 | 数据处理 |
-
-### 系统级依赖
-
-| 工具 | 安装来源 | 是否需要 |
-|------|----------|----------|
-| Docker Desktop | [docker.com](https://www.docker.com/products/docker-desktop/) | 仅路径 A |
-| Node.js 18+ | [nodejs.org](https://nodejs.org/) | 必须 |
-| Python 3.9+ | [python.org](https://www.python.org/downloads/) | 可选 |
-
----
-
-## 附：开发与规格
-
-### 本地开发
-
-- `npm run dev:clean` → `http://127.0.0.1:3000`
-- 本地模式无需登录、API 无鉴权，仅适合本机使用
-- 生产构建：`npm run build` → `npm run start`
-- 定时持仓分析需单实例运行
-
-### 测试命令
+## 开发命令
 
 | 命令 | 用途 |
 |------|------|
-| `npm run verify:system` | 发版前系统校验 |
-| `npm test` | 单元测试 |
-| `npm run test:gaps` | PRD 缺口验收 |
-| `npm run selftest` | 冒烟测试（需 dev server 运行中） |
+| `npm run dev` | 启动开发服务器 |
+| `npm run build` | 生产构建 |
+| `npm test` | 运行单元测试 |
+| `npm run test:e2e` | 运行端到端测试 |
 
-### 规格文档
+## 环境变量
 
-| 文档 | 内容 |
-|------|------|
-| [requirement/PRD.md](requirement/PRD.md) | 产品需求总览 |
-| [requirement/CODING.md](requirement/CODING.md) | 编码仓结构与约束 |
-| [requirement/HARNESS.md](requirement/HARNESS.md) | Agent 运行时规范 |
-| 需求仓/ | 更多 PRD 细节、研究笔记 |
+参考 `.env.example` 配置以下变量：
+- `SUPABASE_URL` - Supabase 项目 URL
+- `SUPABASE_ANON_KEY` - Supabase 匿名密钥
+- `LLM_API_KEY` - 大语言模型 API 密钥
+- `APP_SECRET` - 应用密钥
 
----
+## License
 
-## 许可证
-
-内部演示项目。开源分发前请审查 PRD、`requirement/config` 与第三方 API 条款。
+MIT

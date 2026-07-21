@@ -14,5 +14,5 @@ export function getRunsDir(): string {
 }
 
 export function getRegistryPath(): string {
-  return path.join(getProjectRoot(), "agents", "registry.yaml");
+  return path.join(getProjectRoot(), "app-config", "registry.yaml");
 }
